@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelajahi Keindahan Mojokerto</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav id="mainNav">
+            <a href="#beranda">Beranda</a>
+            <a href="#sejarah">Sejarah</a>
+            <a href="#tentang">Tentang</a>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <div class="container-1">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Jelajahi Keindahan Mojokerto</h1>
+                <p>Seluruh tempat wisata mojokerto dalam satu tempat.</p>
+                <button class="btn-jelajahi" onclick="scrollToDestinations()">Jelajahi</button>
+            </div>
+            <div class="hero-label">Air Terjun Dlundung</div>
+        </section>
+
+        <!-- Search & Category Section -->
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" placeholder="Kuliner..." id="searchInput">
+                <button onclick="searchDestination()">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+            <p class="category-title">Cari berdasarkan kategori</p>
+
+            <div class="categories">
+                <div class="category-item" onclick="filterCategory('wisata-sejarah')">
+                    <i class="fas fa-landmark"></i>
+                    <span>Wisata Sejarah & Budaya</span>
+                </div>
+                <div class="category-item" onclick="filterCategory('wisata-alam')">
+                    <i class="fas fa-mountain"></i>
+                    <span>Wisata Alam</span>
+                </div>
+                <div class="category-item" onclick="filterCategory('wisata-kuliner')">
+                    <i class="fas fa-utensils"></i>
+                    <span>Wisata Kuliner</span>
+                </div>
+                <div class="category-item" onclick="filterCategory('wisata-keluarga')">
+                    <i class="fas fa-users"></i>
+                    <span>Wisata Keluarga & Edukasi</span>
+                </div>
+                <div class="category-item" onclick="filterCategory('wisata-camping')">
+                    <i class="fas fa-campground"></i>
+                    <span>Wisata Camping</span>
+                </div>
+                <div class="category-item" onclick="filterCategory('belanja')">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Belanja & Oleh-Oleh</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Destinations Section -->
+    <section class="destinations-section" id="destinations">
+        <h2>TEMPAT YANG GABOLEH DILEWATKAN</h2>
+        <div class="destinations-grid">
+            <div class="destination-card dest-bukit-watu" onclick="viewDestination('Bukit Watu Jengger')">
+                <h3>Bukit Watu<br>Jengger</h3>
+            </div>
+            <div class="destination-card dest-air-terjun" onclick="viewDestination('Air Terjun Dlundung')">
+                <h3>Air Terjun<br>Dlundung</h3>
+            </div>
+            <div class="destination-card dest-museum" onclick="viewDestination('Museum Trowulan')">
+                <h3>Museum<br>Trowulan</h3>
+            </div>
+            <div class="destination-card dest-gapura" onclick="viewDestination('Gapura Wringin Lawang')">
+                <h3>Gapura<br>Wringin<br>Lawang</h3>
+            </div>
+            <div class="destination-card dest-candi" onclick="viewDestination('Candi Bajang Ratu')">
+                <h3>Candi<br>Bajang Ratu</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Jelajahi<br>Mojokerto</h3>
+            </div>
+            <div class="footer-section">
+                <h3>Site Map</h3>
+                <ul>
+                    <li><a href="#beranda">Home</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#sejarah">Hidup Jok</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <div class="social-icons">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" title="Spotify"><i class="fab fa-spotify"></i></a>
+                    <a href="#" title="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p style="margin-top: 15px; font-size: 14px;">@dimaslebew</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('mainNav');
+            nav.classList.toggle('active');
+        }
+
+        function scrollToDestinations() {
+            document.getElementById('destinations').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        function searchDestination() {
+            const searchTerm = document.getElementById('searchInput').value;
+            alert('Mencari: ' + searchTerm);
+        }
+
+        function filterCategory(category) {
+            alert('Filter kategori: ' + category);
+        }
+
+        function viewDestination(name) {
+            alert('Membuka detail: ' + name);
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function (event) {
+            const nav = document.getElementById('mainNav');
+            const toggle = document.querySelector('.menu-toggle');
+
+            if (!nav.contains(event.target) && !toggle.contains(event.target)) {
+                nav.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+
+</html>
