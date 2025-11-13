@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seluruh tempat wisata mojokerto dalam satu tempat.">
     <title>Jelajahi Keindahan Mojokerto</title>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="scripts/index.js"></script>
 </head>
 
 <body>
@@ -33,44 +35,50 @@
             <div class="hero-label">Air Terjun Dlundung</div>
         </section>
 
-        <!-- Search & Category Section -->
-        <section class="search-section">
-            <div class="search-box">
-                <input type="text" placeholder="Kuliner..." id="searchInput">
-                <button onclick="searchDestination()">
-                    <i class="fas fa-search"></i>
-                </button>
+        <section class="detail">
+            <div class="detail-section">
+                <h1>Ada apa di Mojokerto?</h1>
+                <p>
+                    Di mojokerto ada Lorem Ipsum dolor sit amet cuz wabz — mari makan yang enak pelangi futlafa Hidup
+                    jok — mari makan mga gratis, iu kale dipukul paksa gia gjan skij sgq pakalen mhasa nan pingisin
+                    duluan.
+                </p>
+
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="X (Twitter)">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Apple">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Threads">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
             </div>
-
-            <p class="category-title">Cari berdasarkan kategori</p>
-
-            <div class="categories">
-                <div class="category-item" onclick="filterCategory('wisata-sejarah')">
-                    <i class="fas fa-landmark"></i>
-                    <span>Wisata Sejarah & Budaya</span>
-                </div>
-                <div class="category-item" onclick="filterCategory('wisata-alam')">
-                    <i class="fas fa-mountain"></i>
-                    <span>Wisata Alam</span>
-                </div>
-                <div class="category-item" onclick="filterCategory('wisata-kuliner')">
-                    <i class="fas fa-utensils"></i>
-                    <span>Wisata Kuliner</span>
-                </div>
-                <div class="category-item" onclick="filterCategory('wisata-keluarga')">
-                    <i class="fas fa-users"></i>
-                    <span>Wisata Keluarga & Edukasi</span>
-                </div>
-                <div class="category-item" onclick="filterCategory('wisata-camping')">
-                    <i class="fas fa-campground"></i>
-                    <span>Wisata Camping</span>
-                </div>
-                <div class="category-item" onclick="filterCategory('belanja')">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span>Belanja & Oleh-Oleh</span>
+            <div class="detail-image-section">
+                <div class="image-wrapper">
+                    <img src="assets/images/patung-dipura-mojokerto.jpeg"
+                        alt="Patung Mojokerto">
                 </div>
             </div>
         </section>
+
     </div>
 
     <!-- Destinations Section -->
@@ -94,6 +102,78 @@
             </div>
         </div>
     </section>
+
+    <div class="jelajahi-container">
+        <div class="jelajahi-header">
+            <h2>Jelajahi</h2>
+            <p class="jelajahi-subtitle">Lebih dari 50+ destinasi</p>
+        </div>
+
+        <div class="jelajahi-filter-section">
+            <button class="jelajahi-filter-btn">Wisata Alam</button>
+            <button class="jelajahi-filter-btn">Wisata Kuliner</button>
+            <button class="jelajahi-filter-btn">Wisata Sejarah & Budaya</button>
+            <button class="jelajahi-filter-btn">Wisata Camping</button>
+            <button class="jelajahi-filter-btn">Belanja & Oleh Oleh</button>
+            <button class="jelajahi-filter-icon">
+                <span>☰</span> Filter
+            </button>
+        </div>
+
+        <div class="jelajahi-cards-grid">
+            <figure class="jelajahi-card">
+                <img src="assets/images/bukit-watu-jengger-mojokerto.jpeg"
+                    alt="Bukit Watu Jengger" class="jelajahi-card-image">
+                <figcaption class="jelajahi-card-overlay">
+                    <div class="jelajahi-card-title">Bukit Watu Jengger</div>
+                    <div class="jelajahi-card-info">
+                        <span>⭐ 4.91 (8k)</span>
+                        <span>💵 Rp 5k</span>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="jelajahi-card">
+                <img src="assets/images/bukit-watu-jengger-mojokerto.jpeg"
+                    alt="Bukit Watu Jengger" class="jelajahi-card-image">
+                <figcaption class="jelajahi-card-overlay">
+                    <div class="jelajahi-card-title">Bukit Watu Jengger</div>
+                    <div class="jelajahi-card-info">
+                        <span>⭐ 4.91 (8k)</span>
+                        <span>💵 Rp 5k</span>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="jelajahi-card">
+                <img src="assets/images/bukit-watu-jengger-mojokerto.jpeg"
+                    alt="Bukit Watu Jengger" class="jelajahi-card-image">
+                <figcaption class="jelajahi-card-overlay">
+                    <div class="jelajahi-card-title">Bukit Watu Jengger</div>
+                    <div class="jelajahi-card-info">
+                        <span>⭐ 4.91 (8k)</span>
+                        <span>💵 Rp 5k</span>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="jelajahi-card">
+                <img src="assets/images/bukit-watu-jengger-mojokerto.jpeg"
+                    alt="Bukit Watu Jengger" class="jelajahi-card-image">
+                <figcaption class="jelajahi-card-overlay">
+                    <div class="jelajahi-card-title">Bukit Watu Jengger</div>
+                    <div class="jelajahi-card-info">
+                        <span>⭐ 4.91 (8k)</span>
+                        <span>💵 Rp 5k</span>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+
+        <button class="jelajahi-more-btn">
+            Lebih banyak →
+        </button>
+    </div>
 
     <!-- Footer -->
     <footer>
@@ -125,41 +205,6 @@
         </div>
     </footer>
 
-    <script>
-        function toggleMenu() {
-            const nav = document.getElementById('mainNav');
-            nav.classList.toggle('active');
-        }
-
-        function scrollToDestinations() {
-            document.getElementById('destinations').scrollIntoView({
-                behavior: 'smooth'
-            });
-        }
-
-        function searchDestination() {
-            const searchTerm = document.getElementById('searchInput').value;
-            alert('Mencari: ' + searchTerm);
-        }
-
-        function filterCategory(category) {
-            alert('Filter kategori: ' + category);
-        }
-
-        function viewDestination(name) {
-            alert('Membuka detail: ' + name);
-        }
-
-        // Close menu when clicking outside
-        document.addEventListener('click', function (event) {
-            const nav = document.getElementById('mainNav');
-            const toggle = document.querySelector('.menu-toggle');
-
-            if (!nav.contains(event.target) && !toggle.contains(event.target)) {
-                nav.classList.remove('active');
-            }
-        });
-    </script>
 </body>
 
 </html>
