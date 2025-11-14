@@ -4,35 +4,59 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 /* Header */
 header {
-    background-color: white;
+    width: 100%;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 100;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    color: white;
+}
+
+header:has(nav.scrolled) {
+    background-color: white;
 }
 
 nav {
     display: flex;
     gap: 30px;
-    margin: auto;
 }
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: 500;
     transition: color 0.3s;
+}
+
+nav.scrolled a {
+    color: #333;
 }
 
 nav a:hover {
@@ -52,16 +76,26 @@ nav a:hover {
 /* Hero Section */
 .hero {
     position: relative;
-    height: 500px;
-    background: url('../assets/images/air-terjun-dlundung-mojokerto.jpeg');
+    height: 100dvh;
+    width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     filter: brightness(1.2);
-    border-radius: 20px;
-    margin: 20px;
     display: flex;
     align-items: center;
     overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0;
+    margin: 0 auto 80px auto;
+}
+
+.hero.scrolled {
+    width: 95%;
+    height: 70dvh;
+    border-radius: 20px;
+    margin: 200px auto 80px auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .hero-content {
@@ -71,7 +105,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: clamp(1.8rem, 10vw, 3rem);
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -425,16 +459,21 @@ footer {
     position: relative;
     width: 100%;
     max-width: 350px;
-    border-radius: 15px;
+    aspect-ratio: 9/16;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
 }
 
 .image-wrapper img {
-    width: 100%;
-    height: auto;
-    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateY(20%) translateX(-50%) scale(1.5);
+    height: 100%;
+    width: auto;
 }
+
 
 /* Decorative elements */
 .detail-image-section::before {

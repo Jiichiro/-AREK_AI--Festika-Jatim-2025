@@ -31,3 +31,17 @@ document.addEventListener('click', function (event) {
         nav.classList.remove('active');
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('scroll', () => {
+    const nav = document.getElementById('mainNav');
+        const hero = document.querySelector('.hero')
+        if (scrollY > 50) {
+            hero.classList.add('scrolled');
+            nav.classList.add('scrolled')
+        } else {
+            nav.classList.remove('scrolled')
+            hero.classList.remove('scrolled');
+        }
+    })
+})

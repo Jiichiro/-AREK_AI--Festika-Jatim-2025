@@ -8,6 +8,9 @@
     <title>Jelajahi Keindahan Mojokerto</title>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
     <script src="scripts/index.js"></script>
 </head>
 
@@ -16,8 +19,8 @@
     <header>
         <nav id="mainNav">
             <a href="#beranda">Beranda</a>
-            <a href="#sejarah">Sejarah</a>
             <a href="#tentang">Tentang</a>
+            <a href="#sejarah">Sejarah</a>
         </nav>
         <div class="menu-toggle" onclick="toggleMenu()">
             <i class="fas fa-bars"></i>
@@ -26,22 +29,28 @@
 
     <div class="container-1">
         <!-- Hero Section -->
-        <section class="hero">
+        <section class="hero" style="background-image: url('../assets/images/air-terjun-dlundung-mojokerto.jpeg');">
             <div class="hero-content">
                 <h1>Jelajahi Keindahan Mojokerto</h1>
                 <p>Seluruh tempat wisata mojokerto dalam satu tempat.</p>
-                <button class="btn-jelajahi" onclick="scrollToDestinations()">Jelajahi</button>
+                <a href="#jelajahi" class="btn-jelajahi">Jelajahi</a>
             </div>
             <div class="hero-label">Air Terjun Dlundung</div>
         </section>
 
-        <section class="detail">
+        <section class="detail" id="tentang">
             <div class="detail-section">
                 <h1>Ada apa di Mojokerto?</h1>
                 <p>
-                    Di mojokerto ada Lorem Ipsum dolor sit amet cuz wabz — mari makan yang enak pelangi futlafa Hidup
-                    jok — mari makan mga gratis, iu kale dipukul paksa gia gjan skij sgq pakalen mhasa nan pingisin
-                    duluan.
+                    Mojokerto merupakan salah satu daerah yang kaya akan sejarah, budaya, dan keindahan alam. Di sini,
+                    pengunjung dapat menemukan berbagai peninggalan masa Kerajaan Majapahit, mulai dari candi, situs
+                    arkeologi, hingga museum yang merekam jejak kejayaan masa lampau. <br><br>
+
+                    Selain warisan sejarah, Mojokerto juga menawarkan destinasi alam yang memukau, seperti pegunungan,
+                    air terjun, dan area wisata yang cocok untuk rekreasi maupun penyegaran diri. <br><br>
+
+                    Dengan perpaduan antara nilai historis dan pesona alamnya, Mojokerto menjadi tujuan yang menarik
+                    bagi siapa pun yang ingin mengenal lebih dekat kekayaan budaya dan keindahan Indonesia.
                 </p>
 
                 <div class="social-icons">
@@ -73,8 +82,7 @@
             </div>
             <div class="detail-image-section">
                 <div class="image-wrapper">
-                    <img src="assets/images/patung-dipura-mojokerto.jpeg"
-                        alt="Patung Mojokerto">
+                    <img loading="lazy" src="assets/images/patung-dipura-mojokerto.jpeg" alt="Patung Mojokerto">
                 </div>
             </div>
         </section>
@@ -103,7 +111,7 @@
         </div>
     </section>
 
-    <div class="jelajahi-container">
+    <div class="jelajahi-container" id="jelajahi">
         <div class="jelajahi-header">
             <h2>Jelajahi</h2>
             <p class="jelajahi-subtitle">Lebih dari 50+ destinasi</p>
@@ -122,8 +130,8 @@
 
         <div class="jelajahi-cards-grid">
             <figure class="jelajahi-card">
-                <img src="assets/images/bukit-watu-jengger-mojokerto.jpeg"
-                    alt="Bukit Watu Jengger" class="jelajahi-card-image">
+                <img loading="lazy" src="assets/images/bukit-watu-jengger-mojokerto.jpeg" alt="Bukit Watu Jengger"
+                    class="jelajahi-card-image">
                 <figcaption class="jelajahi-card-overlay">
                     <div class="jelajahi-card-title">Bukit Watu Jengger</div>
                     <div class="jelajahi-card-info">
@@ -134,8 +142,8 @@
             </figure>
 
             <figure class="jelajahi-card">
-                <img src="assets/images/bukit-watu-jengger-mojokerto.jpeg"
-                    alt="Bukit Watu Jengger" class="jelajahi-card-image">
+                <img loading="lazy" src="assets/images/bukit-watu-jengger-mojokerto.jpeg" alt="Bukit Watu Jengger"
+                    class="jelajahi-card-image">
                 <figcaption class="jelajahi-card-overlay">
                     <div class="jelajahi-card-title">Bukit Watu Jengger</div>
                     <div class="jelajahi-card-info">
@@ -146,8 +154,8 @@
             </figure>
 
             <figure class="jelajahi-card">
-                <img src="assets/images/bukit-watu-jengger-mojokerto.jpeg"
-                    alt="Bukit Watu Jengger" class="jelajahi-card-image">
+                <img loading="lazy" src="assets/images/bukit-watu-jengger-mojokerto.jpeg" alt="Bukit Watu Jengger"
+                    class="jelajahi-card-image">
                 <figcaption class="jelajahi-card-overlay">
                     <div class="jelajahi-card-title">Bukit Watu Jengger</div>
                     <div class="jelajahi-card-info">
@@ -158,8 +166,8 @@
             </figure>
 
             <figure class="jelajahi-card">
-                <img src="assets/images/bukit-watu-jengger-mojokerto.jpeg"
-                    alt="Bukit Watu Jengger" class="jelajahi-card-image">
+                <img loading="lazy" src="assets/images/bukit-watu-jengger-mojokerto.jpeg" alt="Bukit Watu Jengger"
+                    class="jelajahi-card-image">
                 <figcaption class="jelajahi-card-overlay">
                     <div class="jelajahi-card-title">Bukit Watu Jengger</div>
                     <div class="jelajahi-card-info">
