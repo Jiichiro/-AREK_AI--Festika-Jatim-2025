@@ -3,7 +3,7 @@ let nav, wisataDatas;
 document.addEventListener('DOMContentLoaded', () => {
     nav = document.getElementById('mainNav');
     wisataDatas = JSON.parse(document.getElementById('jelajahiDatas').textContent)
-    
+
     document.addEventListener('scroll', () => {
         const hero = document.querySelector('.hero')
         if (scrollY > 50) {
@@ -15,6 +15,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 
+    // Close menu when clicking outside
+    document.addEventListener('click', function (event) {
+        const toggle = document.querySelector('.menu-toggle');
+
+        if (!nav.contains(event.target) && !toggle.contains(event.target)) {
+            nav.classList.remove('active');
+        }
+    });
+    
     renderCards(wisataDatas);
 
     const filterButtons = document.querySelectorAll('.jelajahi-filter-btn');
@@ -31,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
             filterWisata(tipeWisata);
         });
     });
+
 })
 
 function toggleMenu() {
@@ -55,15 +65,6 @@ function filterCategory(category) {
 function viewDestination(name) {
     alert('Membuka detail: ' + name);
 }
-
-// Close menu when clicking outside
-document.addEventListener('click', function (event) {
-    const toggle = document.querySelector('.menu-toggle');
-
-    if (!nav.contains(event.target) && !toggle.contains(event.target)) {
-        nav.classList.remove('active');
-    }
-});
 
 // Fungsi untuk format harga
 function formatHarga(harga) {

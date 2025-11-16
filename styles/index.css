@@ -534,8 +534,8 @@ footer {
 }
 
 .jelajahi-filter-btn {
-    background: #5a67d8;
-    color: white;
+    background: white;
+    color: #5a67d8;
     border: none;
     padding: 8px 16px;
     border-radius: 20px;
@@ -547,7 +547,13 @@ footer {
 
 .jelajahi-filter-btn:hover {
     background: #4c51bf;
+    color: white;
     transform: translateY(-2px);
+}
+
+.jelajahi-filter-btn.active {
+    background: #5a67d8;
+    color: white;
 }
 
 .jelajahi-filter-icon {
@@ -652,7 +658,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin: 0 auto;
+    margin: 0 auto -53px auto;
     transition: all 0.3s;
     font-family: inherit;
 }
@@ -939,7 +945,7 @@ footer {
     .jelajahi-more-btn {
         padding: 10px 24px;
         font-size: 13px;
-        margin: 20px auto 0;
+        margin: 20px auto -35px auto;
     }
 
     /* Footer Mobile */
