@@ -1,11 +1,15 @@
-let nav, wisataDatas;
+let nav, wisataDatas, currentFilter = 'Semua', displayLimit = 10;
 
 document.addEventListener('DOMContentLoaded', () => {
     nav = document.getElementById('mainNav');
     wisataDatas = JSON.parse(document.getElementById('jelajahiDatas').textContent)
+    const hero = document.querySelector('.hero')
+
+    const randNum = Math.floor(Math.random() * (wisataDatas.length + 1))
+    hero.style.backgroundImage = `url(${wisataDatas[randNum].image})`
+    document.querySelector(".hero-label").textContent = wisataDatas[randNum].nama
 
     document.addEventListener('scroll', () => {
-        const hero = document.querySelector('.hero')
         if (scrollY > 50) {
             hero.classList.add('scrolled');
             nav.classList.add('scrolled')
@@ -23,8 +27,18 @@ document.addEventListener('DOMContentLoaded', () => {
             nav.classList.remove('active');
         }
     });
-    
-    renderCards(wisataDatas);
+
+    const filterSection = document.querySelector('.jelajahi-filter-section');
+    const uniqueDestinationCategories = [...new Set(wisataDatas.map(item => item.tipe))]
+
+    uniqueDestinationCategories.forEach(tipe => {
+        const button = document.createElement('button');
+        button.className = 'jelajahi-filter-btn';
+        button.textContent = tipe;
+        filterSection.appendChild(button);
+    });
+
+    renderCards();
 
     const filterButtons = document.querySelectorAll('.jelajahi-filter-btn');
     filterButtons.forEach(button => {
@@ -36,11 +50,11 @@ document.addEventListener('DOMContentLoaded', () => {
             this.classList.add('active');
 
             // Filter data berdasarkan teks button
-            const tipeWisata = this.textContent.trim();
-            filterWisata(tipeWisata);
+            currentFilter = this.textContent.trim();
+            displayLimit = 10; // Reset limit saat ganti filter
+            filterWisata();
         });
     });
-
 })
 
 function toggleMenu() {
@@ -81,33 +95,64 @@ function formatReviews(reviews) {
 }
 
 // Fungsi untuk render cards
-function renderCards(data) {
+function renderCards() {
     const grid = document.querySelector('.jelajahi-cards-grid');
     grid.innerHTML = '';
-
-    data.forEach(wisata => {
+    
+    // Dapatkan data yang sudah difilter
+    const filteredData = getFilteredData();
+    
+    // Render sesuai limit
+    const itemsToShow = Math.min(displayLimit, filteredData.length);
+    
+    for (let i = 0; i < itemsToShow; i++) {
         const card = `
-      <figure class="jelajahi-card">
-        <img loading="lazy" src="${wisata.image}" alt="${wisata.nama}" class="jelajahi-card-image">
-        <figcaption class="jelajahi-card-overlay">
-          <div class="jelajahi-card-title">${wisata.nama}</div>
+      <a href=${filteredData[i].url} class="jelajahi-card">
+        <img loading="lazy" src="${filteredData[i].image}" alt="${filteredData[i].nama}" class="jelajahi-card-image">
+        <div class="jelajahi-card-overlay">
+          <div class="jelajahi-card-title">${filteredData[i].nama}</div>
           <div class="jelajahi-card-info">
-            <span>⭐ ${wisata.rating} (${formatReviews(wisata.reviews)})</span>
-            <span>💵 ${formatHarga(wisata.harga)}</span>
+            <span>⭐ ${filteredData[i].rating} (${formatReviews(filteredData[i].reviews)})</span>
+            <span>💵 ${formatHarga(filteredData[i].harga)}</span>
           </div>
-        </figcaption>
-      </figure>
+        </div>
+      </a>
     `;
         grid.innerHTML += card;
-    });
+    }
+    
+    // Tampilkan/sembunyikan tombol "View More"
+    updateViewMoreButton(itemsToShow, filteredData.length);
+}
+
+// Fungsi untuk mendapatkan data yang sudah difilter
+function getFilteredData() {
+    if (currentFilter === 'Semua') {
+        return wisataDatas;
+    } else {
+        return wisataDatas.filter(wisata => wisata.tipe === currentFilter);
+    }
 }
 
 // Fungsi untuk filter wisata
-function filterWisata(tipe) {
-    if (tipe === 'Semua') {
-        renderCards(wisataDatas);
-    } else {
-        const filtered = wisataDatas.filter(wisata => wisata.tipe === tipe);
-        renderCards(filtered);
+function filterWisata() {
+    renderCards();
+}
+
+// Fungsi untuk view more
+function viewMoreWisata() {
+    displayLimit += 10;
+    renderCards();
+}
+
+// Fungsi untuk update tombol view more
+function updateViewMoreButton(shown, total) {
+    const viewMoreBtn = document.querySelector('.jelajahi-more-btn');
+    if (viewMoreBtn) {
+        if (shown >= total) {
+            viewMoreBtn.style.display = 'none';
+        } else {
+            viewMoreBtn.style.display = 'block';
+        }
     }
 }
