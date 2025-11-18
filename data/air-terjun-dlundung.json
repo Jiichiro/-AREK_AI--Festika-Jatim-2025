@@ -1,0 +1,39 @@
+{
+  "title": "Air Terjun Dlundung",
+  "image": [
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDWS_DQIcSwDgkq450CggJ0zxoaxGl_JTOn0-LmdM7D9vjnIraDR5CmKCGsC3E5j8ws7U85NIfbYAX8_n3aarW6gwYV3wIa3QvyY9_Eq9AzaB7RCxqJrQQH9tMG1S6342CpUCcCCciDvMw3m9O7fz3edfEyebVI7YxM4ZhtLQVjFZwce3ak6RO8TURCM/s1567/wisata%20trawas%20air%20terjun%20dlundung.webp",
+      "title": "Thumbnail 1"
+    },
+    {
+      "url": "https://seringjalan.com/wp-content/uploads/2020/01/travelingyuk-1.jpg",
+      "title": "Thumbnail 2"
+    },
+    {
+      "url": "https://seringjalan.com/wp-content/uploads/2020/01/Air-Terjun-Dlundung-Trawas-Mojokerto-768x576.jpg",
+      "title": "Thumbnail 3"
+    },
+    {
+      "url": "https://www.topwisata.info/wp-content/uploads/2019/03/Air2BTerjun2BDlundung2BMojokerto3.jpg",
+      "title": "Thumbnail 4"
+    }
+  ],
+  "rating": 4.85,
+  "price": 10000,
+  "description": [
+    "Air Terjun Dlundung merupakan objek wisata alam yang terletak di lereng Gunung Penanggungan. Kawasan ini dikenal karena suasananya yang sejuk, aliran air yang jernih, serta hutan pinus yang memberi nuansa tenang dan teduh.",
+    "Air terjunnya memiliki ketinggian sedang dengan aliran yang stabil, sehingga aman dinikmati oleh pengunjung dari berbagai usia.",
+    "Di sekitar area wisata tersedia jalur berjalan kaki yang tertata, area beristirahat, serta lokasi untuk kegiatan keluarga seperti berkemah.",
+    "Keindahan alamnya menjadikan tempat ini cocok bagi siapa pun yang ingin melepaskan penat dan menikmati ketenangan khas pegunungan.",
+    "Dengan lingkungan yang masih alami dan udara yang segar, Air Terjun Dlundung menawarkan pengalaman rekreasi yang sederhana namun menenangkan."
+  ],
+  "facilities": [
+    { "icon": "fas fa-parking", "title": "Area Parkir" },
+    { "icon": "fas fa-toilet", "title": "Toilet Umum" },
+    { "icon": "fas fa-home", "title": "GroundCamp" },
+    { "icon": "fas fa-mosque", "title": "Mushola" },
+    { "icon": "fas fa-play", "title": "Outbound" }
+  ],
+  "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41921.58849458252!2d112.42492099732632!3d-7.723680471828417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78700298ac40f5%3A0xa132e93cc41152cf!2sBukit%20Watu%20Jengger!5e0!3m2!1sid!2sid!4v1763367637791!5m2!1sid!2sid",
+  "address": "Hutan, Kabupaten Mojokerto, Jawa Timur"
+}

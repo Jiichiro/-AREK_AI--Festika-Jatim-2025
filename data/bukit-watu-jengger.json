@@ -1,0 +1,56 @@
+{
+  "title": "Bukit Watu Jengger",
+  "image": [
+    {
+      "url": "https://getlost.id/wp-content/uploads/2022/03/watu-jengger_1986192563.jpg",
+      "title": "Thumbnail 1"
+    },
+    {
+      "url": "https://ik.imagekit.io/tvlk/blog/2021/08/Destinasi-Wisata-di-Trawas-Bukit-Watu-Jengger-Shutterstock.jpg?tr=dpr-2,w-675",
+      "title": "Thumbnail 2"
+    },
+    {
+      "url": "https://mounture.com/wp-content/uploads/2020/12/Watu-Jengger.png",
+      "title": "Thumbnail 3"
+    },
+    {
+      "url": "https://www.heydayat.com/wp-content/uploads/2020/01/Tenda.jpg",
+      "title": "Thumbnail 4"
+    }
+  ],
+  "rating": 4.91,
+  "price": 5000,
+  "description": [
+    [
+      "Bukit Watu Jengger merupakan salah satu destinasi wisata alam di Kabupaten Mojokerto yang dikenal karena pemandangan perbukitannya yang menawan.",
+      "Bukit ini memiliki jalur pendakian yang relatif pendek namun menantang, sehingga cocok bagi pengunjung yang ingin menikmati suasana alam tanpa melakukan pendakian berat.",
+      "Dari puncaknya, wisatawan dapat menyaksikan hamparan hutan hijau serta deretan bukit yang membentang luas."
+    ],
+    [
+      "Keindahan panorama matahari terbit dan terbenam menjadi daya tarik utama tempat ini.",
+      "Udara yang sejuk dan suasana yang tenang menjadikan Bukit Watu Jengger pilihan tepat bagi pengunjung yang ingin melepas penat dan menikmati keasrian alam.",
+      "Selain itu, keberadaan batu besar yang menjadi ikon bukit ini menambah nilai estetika dan keunikan kawasan tersebut."
+    ],
+    [
+      "Bukit Watu Jengger dapat diakses melalui beberapa jalur pendakian.",
+      "Fasilitas dasar di sekitarnya cukup memadai untuk menunjang kunjungan wisatawan.",
+      "Tempat ini layak menjadi tujuan rekreasi bagi siapa pun yang menggemari aktivitas luar ruang dan pemandangan alam yang indah."
+    ]
+  ],
+  "facilities": [
+    {
+      "icon": "fas fa-parking",
+      "title": "Area Parkir"
+    },
+    {
+      "icon": "fas fa-toilet",
+      "title": "Toilet Umum"
+    },
+    {
+      "icon": "fas fa-home",
+      "title": "Basecamp"
+    }
+  ],
+  "googleMap": "https://www.google.com/maps/dir/?api=1&destination=Bukit+Watu+Jengger",
+  "address": "Hutan, Kabupaten Mojokerto, Jawa Timur"
+}

@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
             image: array[url, title]
             rating: float
             price: number
-            description: string
+            description: array<string>[]
             facilities: array[icon, title]
             googleMap: string
-            adress: string
+            address: string
         }
     */
     fetch(`data/${destination}.json`)
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("destTitle").textContent = data.title
             document.getElementById("rating").textContent = data.rating
             document.getElementById("price").textContent = data.price
-            document.getElementById("description").textContent = data.description
+            document.getElementById("description").innerHTML = data.description.join("<br><br>")
             data.facilities.forEach(facility => {
                 const facilityNode = document.createElement('div')
                 facilityNode.className = "facility-tag"

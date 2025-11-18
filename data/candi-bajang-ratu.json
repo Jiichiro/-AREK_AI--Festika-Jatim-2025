@@ -1,0 +1,47 @@
+{
+  "title": "Candi Bajang Ratu",
+  "image": [
+    {
+      "url": "https://viuit.id/wp-content/uploads/2022/08/image-24.png",
+      "title": "Thumbnail 1"
+    },
+    {
+      "url": "https://viuit.id/wp-content/uploads/2022/08/image-27.png",
+      "title": "Thumbnail 2"
+    },
+    {
+      "url": "https://viuit.id/wp-content/uploads/2022/08/image-26.png",
+      "title": "Thumbnail 3"
+    },
+    {
+      "url": "https://media.suara.com/pictures/653x366/2021/06/08/59137-candi-bajang-ratu.jpg",
+      "title": "Thumbnail 4"
+    }
+  ],
+  "rating": 4.6,
+  "price": 3000,
+  "description": [
+    "Candi Bajang Ratu merupakan salah satu situs bersejarah yang mencerminkan kejayaan masa klasik di Jawa Timur. Bangunan ini menonjol melalui struktur bata merah yang kokoh serta ragam ornamen khas arsitektur Hindu-Buddha. Lingkungannya yang tenang menghadirkan suasana sakral, sehingga pengunjung dapat menikmati keindahan sekaligus mempelajari nilai historis yang terkandung di dalamnya.",
+    "Sebagai destinasi wisata budaya, Candi Bajang Ratu menawarkan pengalaman yang memadukan keaslian peninggalan masa lampau dengan panorama alam sekitar yang asri. Tempat ini kerap menjadi tujuan untuk kegiatan edukatif, penelitian, maupun rekreasi, terutama bagi mereka yang ingin menelusuri jejak peradaban kuno di Nusantara."
+  ],
+  "facilities": [
+    {
+      "icon": "fas fa-parking",
+      "title": "Area Parkir"
+    },
+    {
+      "icon": "fas fa-toilet",
+      "title": "Toilet Umum"
+    },
+    {
+      "icon": "fas fa-mosque",
+      "title": "Mushola"
+    },
+    {
+      "icon": "fas fa-map-marked",
+      "title": "Pemandu"
+    }
+  ],
+  "googleMap": "https://www.google.com/maps/dir/?api=1&destination=Candi+Bajang+Ratu",
+  "address": "Jl. Candi Tikus No.9, Pelem, Temon, Kec. Trowulan, Kabupaten Mojokerto, Jawa Timur 61362"
+}
