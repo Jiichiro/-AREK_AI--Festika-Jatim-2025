@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Candi Tikus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/styles/destinations-style.css">
+    <script async src="../assets/scripts/destinations-script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <svg class="back-btn" onclick="history.back()" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7" />
+        </svg>
+        <h1>Ringkasan</h1>
+    </div>
+
+    <div class="hero-section">
+        <img id="mainImage" src="https://idsejarah.net/wp-content/uploads/2016/10/canditikus.jpg"
+            alt="Candi Tikus" class="main-image">
+
+        <div class="thumbnail-container">
+            <img src="https://idsejarah.net/wp-content/uploads/2016/10/canditikus.jpg" alt="Thumbnail 1"
+                class="thumbnail" onclick="changeImage(this)">
+            <img src="https://www.gemasulawesi.com/storage/photos/325422531_623191732898574_3938258243866917479_n-1-1.jpeg"
+                alt="Thumbnail 2" class="thumbnail" onclick="changeImage(this)">
+            <img src="https://salsawisata.com/wp-content/uploads/2023/01/Candi-Tikus.jpg" alt="Thumbnail 3"
+                class="thumbnail" onclick="changeImage(this)">
+            <img src="https://salsawisata.com/wp-content/uploads/2023/01/Sejarah-Candi-Tikus.jpg" alt="Thumbnail 4"
+                class="thumbnail" onclick="changeImage(this)">
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="content">
+            <div class="title-section">
+                <h2>Wisata Candi Tikus</h2>
+                <div class="rating">
+                    <span class="star">⭐</span>
+                    <span class="rating-value">4.5</span>
+                </div>
+            </div>
+
+            <div class="price">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M20 7h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM10 4h4v3h-4V4zm2 12c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z" />
+                </svg>
+                Rp 3.000 / Orang
+            </div>
+            <div class="description-wrapper">
+                <p class="description collapsed">
+                    Candi Tikus merupakan salah satu peninggalan Kerajaan Majapahit yang memiliki keunikan arsitektur 
+                    tersendiri. Terletak di kawasan Trowulan, Mojokerto, candi ini diperkirakan berfungsi sebagai 
+                    petirtaan atau pemandian kerajaan pada masa kejayaan Majapahit. Nama "Tikus" konon berasal dari 
+                    penemuan candi ini pada tahun 1914 yang dipenuhi tikus sawah. <br><br>
+
+                    Candi Tikus memiliki struktur yang unik berupa kolam persegi yang dikelilingi oleh bangunan bata 
+                    merah dengan tangga menuju ke bawah. Arsitektur candi menggambarkan konsep Gunung Mahameru yang 
+                    dikelilingi oleh samudra, sebuah simbolisme penting dalam kosmologi Hindu-Buddha. Kolam pemandian 
+                    ini dulunya dipenuhi air yang bersumber dari mata air di sekitar area candi. <br><br>
+
+                    Sebagai situs bersejarah yang telah direstorasi, Candi Tikus kini menjadi destinasi wisata edukasi 
+                    yang populer. Pengunjung dapat melihat langsung struktur bangunan kuno yang masih terpelihara, 
+                    lengkap dengan relief dan ornamen khas Majapahit. Area di sekitar candi juga ditata dengan baik, 
+                    dilengkapi taman dan fasilitas yang memadai. Candi ini menjadi bukti nyata kemajuan teknologi 
+                    hidraulik pada masa Majapahit dan memberikan wawasan mendalam tentang kehidupan istana di era tersebut.
+                </p>
+                <button class="view-more-btn" onclick="viewMoreBtn()">baca Selengkapnya...</button>
+            </div>
+
+
+            <div class="info-grid">
+                <div>
+                    <h3 class="section-title">Fasilitas</h3>
+                    <div class="facilities">
+                        <div class="facility-tag">
+                            <i class="fas fa-parking"></i>
+                            Area Parkir
+                        </div>
+                        <div class="facility-tag">
+                            <i class="fas fa-toilet"></i>
+                            Toilet Umum
+                        </div>
+                        <div class="facility-tag">
+                            <i class="fas fa-store"></i>
+                            Toko Souvenir
+                        </div>
+                        <div class="facility-tag">
+                            <i class="fas fa-mosque"></i>
+                            Mushola
+                        </div>
+                        <div class="facility-tag">
+                            <i class="fas fa-camera"></i>
+                            Spot Foto
+                        </div>
+                        <div class="facility-tag">
+                            <i class="fas fa-tree"></i>
+                            Taman
+                        </div>
+                        <div class="facility-tag">
+                            <i class="fas fa-book"></i>
+                            Museum Mini
+                        </div>
+                        <div class="facility-tag">
+                            <i class="fas fa-info-circle"></i>
+                            Pusat Informasi
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button class="btn btn-outline" onclick="history.back()">
+                    Kembali
+                </button>
+                <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&destination=Candi+Tikus"
+                    target="_blank">
+                    MENUJU LOKASI
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="location-section">
+            <h3 class="section-title">Lokasi</h3>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.029185019296!2d112.40095677593138!3d-7.571796992442385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786d1fdd9add5d%3A0xad81bb21c4b5b075!2sCandi%20Tikus!5e0!3m2!1sid!2sid!4v1763439662424!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="address">
+                <svg class="address-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span>Kompleks Trowulan, Dinuk, Temon, Kec. Trowulan, Kabupaten Mojokerto, Jawa Timur 61362</span>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

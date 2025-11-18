@@ -131,11 +131,57 @@ body {
     gap: 8px;
 }
 
+/* Styling untuk description dengan view more */
 .description {
+    position: relative;
     color: #555;
     font-size: 15px;
     line-height: 1.7;
     margin-bottom: 32px;
+}
+
+/* State ketika text terpotong */
+.description.collapsed {
+    max-height: 5.1em; /* 3 baris teks (1.7 * 3) */
+    overflow: hidden;
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* Tombol View More */
+.view-more-btn {
+    background: none;
+    border: none;
+    color: #ff3300;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 5px 0;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.view-more-btn:hover {
+    color: #b30000;
+    text-decoration: underline;
+}
+
+.view-more-btn:focus {
+    outline: 2px solid #ff2600;
+    outline-offset: 2px;
+}
+
+/* Hide button ketika tidak diperlukan */
+.view-more-btn.hidden {
+    display: none;
+}
+
+/* Container wrapper (opsional) */
+.description-wrapper {
+    margin-bottom: 15px;
 }
 
 .info-grid {

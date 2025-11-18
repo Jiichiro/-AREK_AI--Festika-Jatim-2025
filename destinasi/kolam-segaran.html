@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolam Segaran</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/styles/destinations-style.css">
+    <script async src="../assets/scripts/destinations-script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <svg class="back-btn" onclick="history.back()" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7" />
+        </svg>
+        <h1>Ringkasan</h1>
+    </div>
+
+    <div class="hero-section">
+        <img id="mainImage" src="https://cdn.ngopibareng.id/uploads/2022/2022-10-21/kolam-segaran-tempat-nongkrong-bersejarah-di-mojokerto--thumbnail-869.webp"
+            alt="Kolam Segaran" class="main-image">
+
+        <div class="thumbnail-container">
+            <img src="https://cdn.ngopibareng.id/uploads/2022/2022-10-21/kolam-segaran-tempat-nongkrong-bersejarah-di-mojokerto--thumbnail-869.webp" class="thumbnail" alt="kolam segaran"
+                onclick="changeImage(this)">
+            <img src="https://sejingga.com/wp-content/uploads/2020/10/image.jpg" class="thumbnail" alt="kolam segaran"
+                onclick="changeImage(this)">
+            <img src="https://thumb.viva.id/vivabali/665x374/2025/06/27/685e90cd42056-kolam-segaran-peninggalan-kerajaan-majapahit-di-mojokerto_bali.jpg" class="thumbnail" alt="kolam segaran"
+                onclick="changeImage(this)">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxSw8coQjFgsBwMe40xxzm15-SiHwEWYjLEODA25KD19U9Etfh1RL2tdDAfsyr0XvyyscAf4ir0DsHzhS0ylOnt87Q_7rTSsprtaz7hLZO2OxNPnsuH9qvaiiIHfPICMlmD9tkcW01XvMp9x0849EMouebymVGGyvPmsaE8eNeCfF0lima1Xgoz5AU/s4000/20220618_145848.jpg" class="thumbnail" alt="kolam segaran"
+                onclick="changeImage(this)">
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="content">
+            <div class="title-section">
+                <h2>Kolam Segaran</h2>
+                <div class="rating">
+                    <span class="star">⭐</span>
+                    <span class="rating-value">4.4</span>
+                </div>
+            </div>
+
+            <div class="price">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M20 7h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM10 4h4v3h-4V4zm2 12c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z" />
+                </svg>
+                Gratis
+            </div>
+
+            <div class="description-wrapper">
+                <p class="description collapsed">
+                    Kolam Segaran adalah kolam kuno terbesar peninggalan Kerajaan Majapahit yang berlokasi di 
+                    Trowulan, Mojokerto. Kolam ini memiliki ukuran sekitar 375 meter × 175 meter dengan kedalaman 
+                    hingga 3 meter, dibangun menggunakan bata merah khas Majapahit. <br><br>
+
+                    Menurut catatan sejarah, Kolam Segaran digunakan sebagai tempat rekreasi, tampungan air, hingga 
+                    simbol kemakmuran kerajaan. Ada pula cerita populer bahwa tempat ini dipakai raja untuk menjamu 
+                    tamu penting, di mana peralatan makan emas konon dibuang ke kolam sebagai bentuk kemewahan. <br><br>
+
+                    Kini, Kolam Segaran menjadi salah satu ikon wisata sejarah Majapahit. Pengunjung bisa menikmati 
+                    pemandangan kolam yang luas, area sekitar yang teduh, serta suasana tenang yang membawa nuansa 
+                    masa lalu. Cocok untuk wisata edukasi, keluarga, maupun sekadar bersantai.
+                </p>
+                <button class="view-more-btn" onclick="viewMoreBtn()">baca Selengkapnya...</button>
+            </div>
+
+            <div class="info-grid">
+                <div>
+                    <h3 class="section-title">Fasilitas</h3>
+                    <div class="facilities">
+                        <div class="facility-tag"><i class="fas fa-parking"></i> Area Parkir</div>
+                        <div class="facility-tag"><i class="fas fa-toilet"></i> Toilet Umum</div>
+                        <div class="facility-tag"><i class="fas fa-utensils"></i> Warung</div>
+                        <div class="facility-tag"><i class="fas fa-mosque"></i> Mushola</div>
+                        <div class="facility-tag"><i class="fas fa-camera"></i> Spot Foto</div>
+                        <div class="facility-tag"><i class="fas fa-tree"></i> Taman</div>
+                        <div class="facility-tag"><i class="fas fa-info-circle"></i> Pusat Informasi</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button class="btn btn-outline" onclick="history.back()">Kembali</button>
+                <a class="btn btn-primary"
+                    href="https://www.google.com/maps/dir/?api=1&destination=Kolam+Segaran+Trowulan"
+                    target="_blank">
+                    MENUJU LOKASI
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="location-section">
+            <h3 class="section-title">Lokasi</h3>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.167503389351!2d112.39970507593117!3d-7.557347892456046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786d02bebd0e61%3A0x58b7df684fd18d0c!2sKolam%20Segaran!5e0!3m2!1sid!2sid!4v1763440504731!5m2!1sid!2sid"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="address">
+                <svg class="address-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span>Segaran, Trowulan, Kabupaten Mojokerto, Jawa Timur 61362</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+{
+  "title": "Air Terjun Coban Canggu",
+  "image": [
+    {
+      "url": "https://tugujatim.id/wp-content/uploads/2025/04/oban_canggu.jpg",
+      "title": "Air Terjun Coban Canggu"
+    },
+    {
+      "url": "https://media.suara.com/pictures/653x366/2023/10/17/31076-coban-canggu-instagramcomatmojokertowisata.jpg",
+      "title": "Air Terjun Coban Canggu"
+    },
+    {
+      "url": "https://asset.kompas.com/crops/gmyQ3FERoPGj8QfXHbTdsyOpET4=/114x12:678x388/1200x800/data/photo/2023/08/31/64f0bc98d9cd9.jpg",
+      "title": "Air Terjun Coban Canggu"
+    },
+    {
+      "url": "https://kataomed.com/wp-content/uploads/2020/04/Air-Terjun-Coban-Canggu-Tempat-wisata-di-Mojokerto.jpg",
+      "title": "Air Terjun Coban Canggu"
+    }
+  ],
+  "rating": 4.5,
+  "price": 7500,
+  "description": "Air Terjun Coban Canggu adalah destinasi wisata alam di lereng Gunung Welirang, Kecamatan Pacet, Mojokerto. Ketinggiannya sekitar 70–80 meter, dikelilingi hutan pinus dan udara sejuk khas pegunungan. <br><br> Untuk mencapai lokasi, perlu trekking sekitar 400–500 meter. Tempat ini cocok untuk pecinta alam, spot foto, bermain air, atau healing. Ada juga mitos tentang mata air yang dipercaya membawa keberkahan jodoh.",
+  "facilities": [
+    { "icon": "fas fa-parking", "title": "Area Parkir Luas" },
+    { "icon": "fas fa-toilet", "title": "Toilet" },
+    { "icon": "fas fa-mosque", "title": "Mushola" },
+    { "icon": "fas fa-utensils", "title": "Warung Makan" },
+    { "icon": "fas fa-home", "title": "Gazebo" },
+    { "icon": "fas fa-camera", "title": "Spot Foto Instagramable" },
+    { "icon": "fas fa-hiking", "title": "Jalur Trekking" },
+    { "icon": "fas fa-water", "title": "Kolam Alami" }
+  ],
+  "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1977.00609455412!2d112.5455303457175!3d-7.681837198671355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78775f80cf3fff%3A0x43c501074648e581!2sAir%20Terjun%20Coban%20Canggu!5e0!3m2!1sid!2sid!4v1763451468194!5m2!1sid!2sid",
+  "adress": "Pacet, Kec. Pacet, Kabupaten Mojokerto, Jawa Timur 61374"
+}

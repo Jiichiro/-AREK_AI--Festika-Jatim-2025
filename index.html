@@ -2,20 +2,21 @@
 <html lang="id">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Seluruh tempat wisata mojokerto dalam satu tempat.">
-    <title>Jelajahi Keindahan Mojokerto</title>
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500&display=swap"
-        rel="stylesheet">
-    <script src="scripts/index.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Seluruh tempat wisata mojokerto dalam satu tempat.">
+  <title>Jelajahi Keindahan Mojokerto</title>
+  <link rel="stylesheet" href="assets/styles/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet">
+  <script src="assets/scripts/intersection.js"></script>
+  <script defer src="assets/scripts/index.js"></script>
 </head>
 
 <body>
-    <script type="application/json" id="jelajahiDatas">
+  <script type="application/json" id="jelajahiDatas">
         [
   {
     "nama": "Bukit Watu Jengger",
@@ -23,8 +24,8 @@
     "rating": 4.91,
     "reviews": 8000,
     "harga": 5000,
-    "image": "assets/images/bukit-watu-jengger-mojokerto.jpeg",
-    "url": "/destinasi/bukit-watu-jengger.html"
+    "image": "assets/images/bukit-watu-jengger-mojokerto.webp",
+    "url": "destinasi.html?dest=bukit-watu-jengger"
   },
   {
     "nama": "Air Terjun Dlundung",
@@ -32,17 +33,17 @@
     "rating": 4.85,
     "reviews": 12000,
     "harga": 10000,
-    "image": "assets/images/air-terjun-dlundung-mojokerto.jpeg",
-    "url": "/destinasi/air-terjun-dlundung.html"
+    "image": "assets/images/air-terjun-dlundung-mojokerto.webp",
+    "url": "destinasi.html?dest=air-terjun-dlundung"
   },
   {
-    "nama": "Candi Brajang Ratu",
+    "nama": "Candi Bajang Ratu",
     "tipe": "Wisata Sejarah",
     "rating": 4.95,
     "reviews": 5000,
     "harga": 15000,
-    "image": "assets/images/candi-brajang-ratu-mojokerto.jpeg",
-    "url": "/destinasi/candi-brajang-ratu.html"
+    "image": "assets/images/candi-bajang-ratu-mojokerto.webp",
+    "url": "destinasi.html?dest=candi-bajang-ratu"
   },
   {
     "nama": "Gapura Wringin Lawang",
@@ -50,8 +51,8 @@
     "rating": 4.8,
     "reviews": 3000,
     "harga": 7000,
-    "image": "assets/images/gapura-wringin-lawang-mojokerto.jpeg",
-    "url": "/destinasi/gapura-wringin-lawang.html"
+    "image": "assets/images/gapura-wringin-lawang-mojokerto.webp",
+    "url": "destinasi.html?dest=gapura-wringin-lawang"
   },
   {
     "nama": "Patung Budha Tidur",
@@ -59,8 +60,8 @@
     "rating": 4.88,
     "reviews": 9000,
     "harga": 0,
-    "image": "https://images.bisnis.com/photos/2024/05/16/203296/antarafoto-bersihkan-patung-buddha-tidur-150524-sa-1.jpg",
-    "url": "/destinasi/patung-budha-tidur.html"
+    "image": "assets/images/patung-buddha-tidur.webp",
+    "url": "destinasi.html?dest=patung-budha-tidur"
   },
   {
     "nama": "Candi Tikus",
@@ -68,8 +69,8 @@
     "rating": 4.82,
     "reviews": 11000,
     "harga": 8000,
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGoRorbreCegiotIBtg3TmDAnUu1XisiokvUYgptPQpTidW03x4eYdbUDVoXjw_5uzK_b4rU50VIZfUSgl9yl-EmrC92FMlP0Bolm3Sb4_tYKuJ0fQNfEj-6huYNdd8Lw_yUEEL1X8Ocop/s1600/CANDI+TIKUS.jpg",
-    "url": "/destinasi/candi-tikus.html"
+    "image": "assets/images/candi-tikus.webp",
+    "url": "destinasi.html?dest=candi-tikus"
   },
   {
     "nama": "Museum Majapahit",
@@ -77,8 +78,8 @@
     "rating": 4.78,
     "reviews": 4000,
     "harga": 10000,
-    "image": "assets/images/museum-majapahit-mojokerto.jpeg",
-    "url": "/destinasi/museum-majapahit.html"
+    "image": "assets/images/museum-majapahit-mojokerto.webp",
+    "url": "destinasi.html?dest=museum-majapahit"
   },
   {
     "nama": "Kolam Segaran",
@@ -86,8 +87,8 @@
     "rating": 4.7,
     "reviews": 3500,
     "harga": 5000,
-    "image": "https://sejingga.com/wp-content/uploads/2020/10/image.jpg",
-    "url": "/destinasi/kolam-segaran.html"
+    "image": "assets/images/kolam-segaran.webp",
+    "url": "destinasi.html?dest=kolam-segaran"
   },
   {
     "nama": "Candi Minak Jinggo",
@@ -95,8 +96,8 @@
     "rating": 4.75,
     "reviews": 2000,
     "harga": 5000,
-    "image": "https://cdns.klimg.com/merdeka.com/i/w/news/2023/06/01/1556261/540x270/candi-minak-jinggo-situs-majapahit-yang-memiliki-relief-cerita-binatang.png",
-    "url": "/destinasi/candi-minak-jinggo.html"
+    "image": "assets/images/candi-minak-jinggo.webp",
+    "url": "destinasi.html?dest=candi-minak-jinggo"
   },
   {
     "nama": "Air Terjun Coban Canggu",
@@ -104,8 +105,8 @@
     "rating": 4.83,
     "reviews": 8900,
     "harga": 10000,
-    "image": "https://cdn.ngopibareng.id/uploads/2023/2023-02-20/intip-keindahan-alam-air-terjun-coban-canggu-mojokerto--thumbnail-219.webp",
-    "url": "/destinasi/air-terjun-coban-canggu.html"
+    "image": "assets/images/air-terjun-coban-canggu-mojokerto.webp",
+    "url": "destinasi.html?dest=air-terjun-coban-canggu"
   },
   {
     "nama": "Gunung Penanggungan",
@@ -113,8 +114,8 @@
     "rating": 4.92,
     "reviews": 14000,
     "harga": 5000,
-    "image": "assets/images/gunung-penanggungan.jpeg",
-    "url": "/destinasi/gunung-penanggungan.html"
+    "image": "assets/images/gunung-penanggungan.webp",
+    "url": "destinasi.html?dest=gunung-penanggungan"
   },
   {
     "nama": "Taman Ghanjaran",
@@ -122,8 +123,8 @@
     "rating": 4.81,
     "reviews": 30000,
     "harga": 10000,
-    "image": "assets/images/taman-ghanjaran.jpeg",
-    "url": "/destinasi/taman-ghanjaran.html"
+    "image": "assets/images/taman-ghanjaran.webp",
+    "url": "destinasi.html?dest=taman-ghanjaran"
   },
   {
     "nama": "Ranu Manduro",
@@ -131,17 +132,8 @@
     "rating": 4.65,
     "reviews": 12000,
     "harga": 0,
-    "image": "assets/images/ranu-manduro.jpeg",
-    "url": "/destinasi/ranu-manduro.html"
-  },
-  {
-    "nama": "Pandawa Water World",
-    "tipe": "Wisata Keluarga",
-    "rating": 4.72,
-    "reviews": 8000,
-    "harga": 30000,
-    "image": "assets/images/pandawa-waterworld.jpeg",
-    "url": "/destinasi/pandawa-water-world.html"
+    "image": "assets/images/ranu-manduro.webp",
+    "url": "destinasi.html?dest=ranu-manduro"
   },
   {
     "nama": "Petirtaan Jolotundo",
@@ -149,8 +141,8 @@
     "rating": 4.89,
     "reviews": 6000,
     "harga": 8000,
-    "image": "assets/images/jolotundo.jpeg",
-    "url": "/destinasi/petirtaan-jolotundo.html"
+    "image": "assets/images/petirtaan-jolotundo.webp",
+    "url": "destinasi.html?dest=petirtaan-jolotundo"
   },
   {
     "nama": "Candi Suro",
@@ -158,8 +150,8 @@
     "rating": 4.7,
     "reviews": 2500,
     "harga": 5000,
-    "image": "assets/images/candi-suro.jpeg",
-    "url": "/destinasi/candi-suro.html"
+    "image": "assets/images/candi-suro.webp",
+    "url": "destinasi.html?dest=candi-suro"
   },
   {
     "nama": "Sendi Adventure",
@@ -167,8 +159,8 @@
     "rating": 4.77,
     "reviews": 7000,
     "harga": 10000,
-    "image": "assets/images/sendi-adventure.jpeg",
-    "url": "/destinasi/sendi-adventure.html"
+    "image": "assets/images/sendi-adventure.webp",
+    "url": "destinasi.html?dest=sendi-adventure"
   },
   {
     "nama": "Taman Mojodowo",
@@ -176,8 +168,8 @@
     "rating": 4.55,
     "reviews": 4500,
     "harga": 5000,
-    "image": "assets/images/taman-mojodowo.jpeg",
-    "url": "/destinasi/taman-mojodowo.html"
+    "image": "assets/images/taman-mojodowo.webp",
+    "url": "destinasi.html?dest=taman-mojodowo"
   },
   {
     "nama": "Alun-Alun Mojokerto",
@@ -185,8 +177,8 @@
     "rating": 4.6,
     "reviews": 50000,
     "harga": 0,
-    "image": "assets/images/alun-alun-mojokerto.jpeg",
-    "url": "/destinasi/alun-alun-mojokerto.html"
+    "image": "assets/images/alun-alun-mojokerto.webp",
+    "url": "destinasi.html?dest=alun-alun-mojokerto"
   },
   {
     "nama": "Candi Wringin Branjang",
@@ -194,8 +186,8 @@
     "rating": 4.66,
     "reviews": 1700,
     "harga": 5000,
-    "image": "assets/images/candi-wringin-branjang.jpeg",
-    "url": "/destinasi/candi-wringin-branjang.html"
+    "image": "assets/images/candi-wringin-branjang.webp",
+    "url": "destinasi.html?dest=candi-wringin-branjang"
   },
   {
     "nama": "Sunrise Penanggungan Basecamp",
@@ -203,8 +195,8 @@
     "rating": 4.88,
     "reviews": 5400,
     "harga": 7000,
-    "image": "assets/images/sunrise-penanggungan.jpeg",
-    "url": "/destinasi/sunrise-penanggungan-basecamp.html"
+    "image": "assets/images/sunrise-penanggungan.webp",
+    "url": "destinasi.html?dest=sunrise-penanggungan-basecamp"
   },
   {
     "nama": "Bukit Kayoe Putih",
@@ -212,8 +204,8 @@
     "rating": 4.62,
     "reviews": 3900,
     "harga": 5000,
-    "image": "assets/images/bukit-kayoe-putih.jpeg",
-    "url": "/destinasi/bukit-kayoe-putih.html"
+    "image": "assets/images/bukit-kayoe-putih.webp",
+    "url": "destinasi.html?dest=bukit-kayoe-putih"
   },
   {
     "nama": "Agro Wisata Madureso",
@@ -221,8 +213,8 @@
     "rating": 4.58,
     "reviews": 2800,
     "harga": 15000,
-    "image": "assets/images/agro-madureso.jpeg",
-    "url": "/destinasi/agro-wisata-madureso.html"
+    "image": "assets/images/agro-madureso.webp",
+    "url": "destinasi.html?dest=agro-wisata-madureso"
   },
   {
     "nama": "Banyu Panas Pacet",
@@ -230,8 +222,8 @@
     "rating": 4.79,
     "reviews": 22000,
     "harga": 15000,
-    "image": "assets/images/banyu-panas.jpeg",
-    "url": "/destinasi/banyu-panas-pacet.html"
+    "image": "assets/images/banyu-panas.webp",
+    "url": "destinasi.html?dest=banyu-panas-pacet"
   },
   {
     "nama": "Kampung Organik Pacet",
@@ -239,8 +231,8 @@
     "rating": 4.7,
     "reviews": 3300,
     "harga": 10000,
-    "image": "assets/images/kampung-organik.jpeg",
-    "url": "/destinasi/kampung-organik-pacet.html"
+    "image": "assets/images/kampung-organik.webp",
+    "url": "destinasi.html?dest=kampung-organik-pacet"
   },
   {
     "nama": "Pasar Wisata Trawas",
@@ -248,8 +240,8 @@
     "rating": 4.82,
     "reviews": 12000,
     "harga": 0,
-    "image": "assets/images/pasar-trawas.jpeg",
-    "url": "/destinasi/pasar-wisata-trawas.html"
+    "image": "assets/images/pasar-trawas.webp",
+    "url": "destinasi.html?dest=pasar-wisata-trawas"
   },
   {
     "nama": "Coban Kembar Padusan",
@@ -257,8 +249,8 @@
     "rating": 4.74,
     "reviews": 4700,
     "harga": 8000,
-    "image": "assets/images/coban-kembar.jpeg",
-    "url": "/destinasi/coban-kembar-padusan.html"
+    "image": "assets/images/coban-kembar.webp",
+    "url": "destinasi.html?dest=coban-kembar-padusan"
   },
   {
     "nama": "Taman Pelangi Mojokerto",
@@ -266,8 +258,8 @@
     "rating": 4.61,
     "reviews": 20000,
     "harga": 10000,
-    "image": "assets/images/taman-pelangi.jpeg",
-    "url": "/destinasi/taman-pelangi-mojokerto.html"
+    "image": "assets/images/taman-pelangi.webp",
+    "url": "destinasi.html?dest=taman-pelangi-mojokerto"
   },
   {
     "nama": "Kali Puthuk Adventure",
@@ -275,8 +267,8 @@
     "rating": 4.59,
     "reviews": 2500,
     "harga": 8000,
-    "image": "assets/images/kali-puthuk.jpeg",
-    "url": "/destinasi/kali-puthuk-adventure.html"
+    "image": "assets/images/kali-puthuk.webp",
+    "url": "destinasi.html?dest=kali-puthuk-adventure"
   },
   {
     "nama": "Rumah Majapahit",
@@ -284,8 +276,8 @@
     "rating": 4.68,
     "reviews": 5100,
     "harga": 7000,
-    "image": "assets/images/rumah-majapahit.jpeg",
-    "url": "/destinasi/rumah-majapahit.html"
+    "image": "assets/images/rumah-majapahit.webp",
+    "url": "destinasi.html?dest=rumah-majapahit"
   },
   {
     "nama": "Claket Adventure Park",
@@ -293,8 +285,8 @@
     "rating": 4.8,
     "reviews": 12000,
     "harga": 15000,
-    "image": "assets/images/claket-adventure.jpeg",
-    "url": "/destinasi/claket-adventure-park.html"
+    "image": "assets/images/claket-adventure.webp",
+    "url": "destinasi.html?dest=claket-adventure-park"
   },
   {
     "nama": "Taman Pinus Pacet",
@@ -302,8 +294,8 @@
     "rating": 4.76,
     "reviews": 18000,
     "harga": 8000,
-    "image": "assets/images/taman-pinus.jpeg",
-    "url": "/destinasi/taman-pinus-pacet.html"
+    "image": "assets/images/taman-pinus.webp",
+    "url": "destinasi.html?dest=taman-pinus-pacet"
   },
   {
     "nama": "Bukit Bendo",
@@ -311,8 +303,8 @@
     "rating": 4.67,
     "reviews": 6000,
     "harga": 5000,
-    "image": "assets/images/bukit-bendo.jpeg",
-    "url": "/destinasi/bukit-bendo.html"
+    "image": "assets/images/bukit-bendo.webp",
+    "url": "destinasi.html?dest=bukit-bendo"
   },
   {
     "nama": "Sendi Sky Hills",
@@ -320,8 +312,8 @@
     "rating": 4.84,
     "reviews": 15000,
     "harga": 10000,
-    "image": "assets/images/sendi-skyhills.jpeg",
-    "url": "/destinasi/sendi-sky-hills.html"
+    "image": "assets/images/sendi-skyhills.webp",
+    "url": "destinasi.html?dest=sendi-sky-hills"
   },
   {
     "nama": "Kampung Majapahit Bejijong",
@@ -329,8 +321,8 @@
     "rating": 4.72,
     "reviews": 8000,
     "harga": 5000,
-    "image": "assets/images/kampung-majapahit.jpeg",
-    "url": "/destinasi/kampung-majapahit-bejijong.html"
+    "image": "assets/images/kampung-majapahit.webp",
+    "url": "destinasi.html?dest=kampung-majapahit-bejijong"
   },
   {
     "nama": "Wana Wisata Dlundung",
@@ -338,8 +330,8 @@
     "rating": 4.79,
     "reviews": 14000,
     "harga": 10000,
-    "image": "assets/images/air-terjun-dlundung-mojokerto.jpeg",
-    "url": "/destinasi/wana-wisata-dlundung.html"
+    "image": "assets/images/air-terjun-dlundung-mojokerto.webp",
+    "url": "destinasi.html?dest=wana-wisata-dlundung"
   },
   {
     "nama": "Cottage Ubaya Training Center",
@@ -347,8 +339,8 @@
     "rating": 4.73,
     "reviews": 5000,
     "harga": 20000,
-    "image": "assets/images/ubaya-training.jpeg",
-    "url": "/destinasi/cottage-ubaya-training-center.html"
+    "image": "assets/images/ubaya-training.webp",
+    "url": "destinasi.html?dest=cottage-ubaya-training-center"
   },
   {
     "nama": "Taman Kelinci Pacet",
@@ -356,8 +348,8 @@
     "rating": 4.65,
     "reviews": 3500,
     "harga": 10000,
-    "image": "assets/images/taman-kelinci.jpeg",
-    "url": "/destinasi/taman-kelinci-pacet.html"
+    "image": "assets/images/taman-kelinci.webp",
+    "url": "destinasi.html?dest=taman-kelinci-pacet"
   },
   {
     "nama": "Bukit Embong",
@@ -365,8 +357,8 @@
     "rating": 4.58,
     "reviews": 1900,
     "harga": 5000,
-    "image": "assets/images/bukit-embong.jpeg",
-    "url": "/destinasi/bukit-embong.html"
+    "image": "assets/images/bukit-embong.webp",
+    "url": "destinasi.html?dest=bukit-embong"
   },
   {
     "nama": "Mahoni Park",
@@ -374,8 +366,8 @@
     "rating": 4.74,
     "reviews": 8000,
     "harga": 10000,
-    "image": "assets/images/mahoni-park.jpeg",
-    "url": "/destinasi/mahoni-park.html"
+    "image": "assets/images/mahoni-park.webp",
+    "url": "destinasi.html?dest=mahoni-park"
   },
   {
     "nama": "Gunung Welirang Basecamp",
@@ -383,8 +375,8 @@
     "rating": 4.88,
     "reviews": 9000,
     "harga": 5000,
-    "image": "assets/images/welirang.jpeg",
-    "url": "/destinasi/gunung-welirang-basecamp.html"
+    "image": "assets/images/welirang.webp",
+    "url": "destinasi.html?dest=gunung-welirang-basecamp"
   },
   {
     "nama": "Taman Gandawati",
@@ -392,8 +384,8 @@
     "rating": 4.5,
     "reviews": 7000,
     "harga": 5000,
-    "image": "assets/images/gandawati.jpeg",
-    "url": "/destinasi/taman-gandawati.html"
+    "image": "assets/images/gandawati.webp",
+    "url": "destinasi.html?dest=taman-gandawati"
   },
   {
     "nama": "Kampung Wisata Kurma",
@@ -401,8 +393,8 @@
     "rating": 4.63,
     "reviews": 2500,
     "harga": 10000,
-    "image": "assets/images/kampung-kurma.jpeg",
-    "url": "/destinasi/kampung-wisata-kurma.html"
+    "image": "assets/images/kampung-kurma.webp",
+    "url": "destinasi.html?dest=kampung-wisata-kurma"
   },
   {
     "nama": "Bumi Perkemahan Dlundung",
@@ -410,8 +402,8 @@
     "rating": 4.82,
     "reviews": 13000,
     "harga": 15000,
-    "image": "assets/images/camping-dlundung.jpeg",
-    "url": "/destinasi/bumi-perkemahan-dlundung.html"
+    "image": "assets/images/camping-dlundung.webp",
+    "url": "destinasi.html?dest=bumi-perkemahan-dlundung"
   },
   {
     "nama": "Bukit Jengger Sunrise Point",
@@ -419,8 +411,8 @@
     "rating": 4.92,
     "reviews": 11000,
     "harga": 5000,
-    "image": "assets/images/jengger-sunrise.jpeg",
-    "url": "/destinasi/bukit-jengger-sunrise-point.html"
+    "image": "assets/images/jengger-sunrise.webp",
+    "url": "destinasi.html?dest=bukit-jengger-sunrise-point"
   },
   {
     "nama": "Lembah Trawas",
@@ -428,8 +420,8 @@
     "rating": 4.77,
     "reviews": 5000,
     "harga": 10000,
-    "image": "assets/images/lembah-trawas.jpeg",
-    "url": "/destinasi/lembah-trawas.html"
+    "image": "assets/images/lembah-trawas.webp",
+    "url": "destinasi.html?dest=lembah-trawas"
   },
   {
     "nama": "Waterland Mojokerto",
@@ -437,8 +429,8 @@
     "rating": 4.69,
     "reviews": 9000,
     "harga": 25000,
-    "image": "assets/images/waterland.jpeg",
-    "url": "/destinasi/waterland-mojokerto.html"
+    "image": "assets/images/waterland.webp",
+    "url": "destinasi.html?dest=waterland-mojokerto"
   },
   {
     "nama": "Kampung Anggur Pacet",
@@ -446,8 +438,8 @@
     "rating": 4.73,
     "reviews": 4000,
     "harga": 15000,
-    "image": "assets/images/kampung-anggur.jpeg",
-    "url": "/destinasi/kampung-anggur-pacet.html"
+    "image": "assets/images/kampung-anggur.webp",
+    "url": "destinasi.html?dest=kampung-anggur-pacet"
   },
   {
     "nama": "Hutan Pinus Gondang",
@@ -455,8 +447,8 @@
     "rating": 4.75,
     "reviews": 7000,
     "harga": 5000,
-    "image": "assets/images/hutan-pinus-gondang.jpeg",
-    "url": "/destinasi/hutan-pinus-gondang.html"
+    "image": "assets/images/hutan-pinus-gondang.webp",
+    "url": "destinasi.html?dest=hutan-pinus-gondang"
   },
   {
     "nama": "Jungle Camp Trawas",
@@ -464,8 +456,8 @@
     "rating": 4.79,
     "reviews": 3500,
     "harga": 20000,
-    "image": "assets/images/jungle-camp.jpeg",
-    "url": "/destinasi/jungle-camp-trawas.html"
+    "image": "assets/images/jungle-camp.webp",
+    "url": "destinasi.html?dest=jungle-camp-trawas"
   },
   {
     "nama": "Taman Kelana",
@@ -473,8 +465,8 @@
     "rating": 4.62,
     "reviews": 9000,
     "harga": 5000,
-    "image": "assets/images/taman-kelana.jpeg",
-    "url": "/destinasi/taman-kelana.html"
+    "image": "assets/images/taman-kelana.webp",
+    "url": "destinasi.html?dest=taman-kelana"
   },
   {
     "nama": "Kampung Jamu Mojokerto",
@@ -482,8 +474,8 @@
     "rating": 4.69,
     "reviews": 4500,
     "harga": 8000,
-    "image": "assets/images/kampung-jamu.jpeg",
-    "url": "/destinasi/kampung-jamu-mojokerto.html"
+    "image": "assets/images/kampung-jamu.webp",
+    "url": "destinasi.html?dest=kampung-jamu-mojokerto"
   },
   {
     "nama": "Puncak Trawas",
@@ -491,8 +483,8 @@
     "rating": 4.86,
     "reviews": 18000,
     "harga": 10000,
-    "image": "assets/images/puncak-trawas.jpeg",
-    "url": "/destinasi/puncak-trawas.html"
+    "image": "assets/images/puncak-trawas.webp",
+    "url": "destinasi.html?dest=puncak-trawas"
   },
   {
     "nama": "Bukit Artomoro",
@@ -500,140 +492,140 @@
     "rating": 4.63,
     "reviews": 2400,
     "harga": 7000,
-    "image": "assets/images/artomoro.jpeg",
-    "url": "/destinasi/bukit-artomoro.html"
+    "image": "assets/images/artomoro.webp",
+    "url": "destinasi.html?dest=bukit-artomoro"
   }
 ]
     </script>
-    <!-- Header -->
-    <header>
-        <nav id="mainNav">
-            <a href="#beranda">Beranda</a>
-            <a href="#tentang">Tentang</a>
-            <a href="#sejarah">Sejarah</a>
-        </nav>
-        <div class="menu-toggle" onclick="toggleMenu()">
-            <i class="fas fa-bars"></i>
+  <!-- Header -->
+  <header>
+    <nav id="mainNav">
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#sejarah">Sejarah</a>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <div class="container-1">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Jelajahi Keindahan Mojokerto</h1>
+        <p>Seluruh tempat wisata mojokerto dalam satu tempat.</p>
+        <a href="#jelajahi" class="btn-jelajahi">Jelajahi</a>
+      </div>
+      <div class="hero-label">Air Terjun Dlundung</div>
+    </section>
+
+    <section class="detail" id="tentang">
+      <div class="detail-section">
+        <h1 class="fade-in">Ada apa di Mojokerto?</h1>
+        <p class="fade-in">
+          Mojokerto merupakan salah satu daerah yang kaya akan sejarah, budaya, dan keindahan alam. Di sini,
+          pengunjung dapat menemukan berbagai peninggalan masa Kerajaan Majapahit, mulai dari candi, situs
+          arkeologi, hingga museum yang merekam jejak kejayaan masa lampau. <br><br>
+
+          Selain warisan sejarah, Mojokerto juga menawarkan destinasi alam yang memukau, seperti pegunungan,
+          air terjun, dan area wisata yang cocok untuk rekreasi maupun penyegaran diri. <br><br>
+
+          Dengan perpaduan antara nilai historis dan pesona alamnya, Mojokerto menjadi tujuan yang menarik
+          bagi siapa pun yang ingin mengenal lebih dekat kekayaan budaya dan keindahan Indonesia.
+        </p>
+
+        <div class="stats fade-in">
+          <div class="stat-item">
+            <div id="dest-stat" class="stat-number">50+</div>
+            <div class="stat-label">Destinasi Wisata</div>
+          </div>
+          <div class="stat-item">
+            <div id="candi-stat" class="stat-number">10+</div>
+            <div class="stat-label">Candi Bersejarah</div>
+          </div>
         </div>
-    </header>
+      </div>
+      <div class="detail-image-section fade-in">
+        <div class="image-wrapper">
+          <img loading="lazy" src="assets/images/patung-dipura-mojokerto.webp" alt="Patung Mojokerto">
+        </div>
+      </div>
+    </section>
 
-    <div class="container-1">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Jelajahi Keindahan Mojokerto</h1>
-                <p>Seluruh tempat wisata mojokerto dalam satu tempat.</p>
-                <a href="#jelajahi" class="btn-jelajahi">Jelajahi</a>
-            </div>
-            <div class="hero-label">Air Terjun Dlundung</div>
-        </section>
+  </div>
 
-        <section class="detail" id="tentang">
-            <div class="detail-section">
-                <h1>Ada apa di Mojokerto?</h1>
-                <p>
-                    Mojokerto merupakan salah satu daerah yang kaya akan sejarah, budaya, dan keindahan alam. Di sini,
-                    pengunjung dapat menemukan berbagai peninggalan masa Kerajaan Majapahit, mulai dari candi, situs
-                    arkeologi, hingga museum yang merekam jejak kejayaan masa lampau. <br><br>
+  <!-- Destinations Section -->
+  <section class="destinations-section" id="destinations">
+    <h2 class="fade-in">TEMPAT YANG GABOLEH DILEWATKAN</h2>
+    <div class="destinations-grid">
+      <a href="destinasi.html?dest=bukit-watu-jengger" class="fade-in destination-card dest-bukit-watu">
+        <h3>Bukit Watu<br>Jengger</h3>
+      </a>
+      <a href="destinasi.html?dest=air-terjun-dlundung" class="fade-in destination-card dest-air-terjun">
+        <h3>Air Terjun<br>Dlundung</h3>
+      </a>
+      <a href="destinasi.html?dest=museum-majapahit" class="fade-in destination-card dest-museum">
+        <h3>Museum<br>Majapahit</h3>
+      </a>
+      <a href="destinasi.html?dest=gapura-wringin-lawang" class="fade-in destination-card dest-gapura">
+        <h3>Gapura<br>Wringin<br>Lawang</h3>
+      </a>
+      <a href="destinasi.html?dest=candi-bajang-ratu" class="fade-in destination-card dest-candi">
+        <h3>Candi<br>Bajang Ratu</h3>
+      </a>
+    </div>
+  </section>
 
-                    Selain warisan sejarah, Mojokerto juga menawarkan destinasi alam yang memukau, seperti pegunungan,
-                    air terjun, dan area wisata yang cocok untuk rekreasi maupun penyegaran diri. <br><br>
+  <section class="jelajahi-container" id="jelajahi">
+    <div class="jelajahi-header">
+      <h2>Jelajahi</h2>
+      <p class="jelajahi-subtitle">Lebih dari 50+ destinasi</p>
+    </div>
 
-                    Dengan perpaduan antara nilai historis dan pesona alamnya, Mojokerto menjadi tujuan yang menarik
-                    bagi siapa pun yang ingin mengenal lebih dekat kekayaan budaya dan keindahan Indonesia.
-                </p>
+    <div class="jelajahi-filter-section">
+      <button class="jelajahi-filter-btn active">Semua</button>
+    </div>
 
-                <div class="stats">
-                    <div class="stat-item">
-                        <div class="stat-number">50+</div>
-                        <div class="stat-label">Destinasi Wisata</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label">Candi Bersejarah</div>
-                    </div>
-                </div>
-            </div>
-            <div class="detail-image-section">
-                <div class="image-wrapper">
-                    <img loading="lazy" src="assets/images/patung-dipura-mojokerto.jpeg" alt="Patung Mojokerto">
-                </div>
-            </div>
-        </section>
+    <div class="jelajahi-cards-grid">
 
     </div>
 
-    <!-- Destinations Section -->
-    <section class="destinations-section" id="destinations">
-        <h2>TEMPAT YANG GABOLEH DILEWATKAN</h2>
-        <div class="destinations-grid">
-            <div class="destination-card dest-bukit-watu" onclick="viewDestination('Bukit Watu Jengger')">
-                <h3>Bukit Watu<br>Jengger</h3>
-            </div>
-            <div class="destination-card dest-air-terjun" onclick="viewDestination('Air Terjun Dlundung')">
-                <h3>Air Terjun<br>Dlundung</h3>
-            </div>
-            <div class="destination-card dest-museum" onclick="viewDestination('Museum Trowulan')">
-                <h3>Museum<br>Majapahit</h3>
-            </div>
-            <a href="destinasi/gapura-wringin-lawang.html" class="destination-card dest-gapura">
-                <h3>Gapura<br>Wringin<br>Lawang</h3>
-            </a>
-            <div class="destination-card dest-candi" onclick="viewDestination('Candi Brajang Ratu')">
-                <h3>Candi<br>Brajang Ratu</h3>
-            </div>
+    <button onclick="viewMoreWisata()" class="jelajahi-more-btn">
+      Lebih banyak <i class="fas fa-arrow-down"></i>
+    </button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Jelajahi<br>Mojokerto</h3>
+      </div>
+      <div class="footer-section">
+        <h3>Site Map</h3>
+        <ul>
+          <li><a href="#beranda">Home</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#sejarah">Sejarah</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <div class="social-icons">
+          <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" title="Spotify"><i class="fab fa-spotify"></i></a>
+          <a href="#" title="Pinterest"><i class="fab fa-pinterest"></i></a>
+          <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
         </div>
-    </section>
-
-    <section class="jelajahi-container" id="jelajahi">
-        <div class="jelajahi-header">
-            <h2>Jelajahi</h2>
-            <p class="jelajahi-subtitle">Lebih dari 50+ destinasi</p>
-        </div>
-
-        <div class="jelajahi-filter-section">
-            <button class="jelajahi-filter-btn active">Semua</button>
-        </div>
-
-        <div class="jelajahi-cards-grid">
-
-        </div>
-
-        <button onclick="viewMoreWisata()" class="jelajahi-more-btn">
-            Lebih banyak <i class="fas fa-arrow-right"></i>
-        </button>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Jelajahi<br>Mojokerto</h3>
-            </div>
-            <div class="footer-section">
-                <h3>Site Map</h3>
-                <ul>
-                    <li><a href="#beranda">Home</a></li>
-                    <li><a href="#tentang">Tentang</a></li>
-                    <li><a href="#sejarah">Sejarah</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <div class="social-icons">
-                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
-                    <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
-                    <a href="#" title="Spotify"><i class="fab fa-spotify"></i></a>
-                    <a href="#" title="Pinterest"><i class="fab fa-pinterest"></i></a>
-                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <p style="margin-top: 15px; font-size: 14px;">@dimaslebew</p>
-                <p style="margin-top: 15px; font-size: 14px;">@andyaja</p>
-            </div>
-        </div>
-    </footer>
+        <p style="margin-top: 15px; font-size: 14px;">@dimaslebew</p>
+        <p style="margin-top: 15px; font-size: 14px;">@andyaja</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
