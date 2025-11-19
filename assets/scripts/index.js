@@ -159,7 +159,7 @@ const wisataDatas = [
 nav = document.getElementById('mainNav');
 const hero = document.querySelector('.hero')
 
-const randNum = Math.floor(Math.random() * (wisataDatas.length + 1))
+const randNum = Math.floor(Math.random() * (wisataDatas.length))
 hero.style.backgroundImage = `url(${wisataDatas[randNum].image})`
 document.querySelector(".hero-label").textContent = wisataDatas[randNum].nama
 
