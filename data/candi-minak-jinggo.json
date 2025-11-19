@@ -1,0 +1,38 @@
+{
+  "title": "Candi Minak Jinggo",
+  "image": [
+    {
+      "url": "https://asset.kompas.com/crops/RJpKq2XmSN6ysQ_R6x81Q83yE8E=/0x0:1024x683/750x500/data/photo/2023/10/27/653b5efdd08fe.jpg",
+      "title": "Candi Minak Jinggo"
+    },
+    {
+      "url": "https://ips.pelajaran.co.id/wp-content/uploads/2020/02/Candi-Minak-Jinggo-768x464.jpg",
+      "title": "Candi Minak Jinggo"
+    },
+    {
+      "url": "https://beritajatim.com/cdn-cgi/image/quality=70,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2023/11/IMG-20231125-WA0001.jpg?resize=627%2C353&ssl=1",
+      "title": "Candi Minak Jinggo"
+    },
+    {
+      "url": "https://beritajatim.com/cdn-cgi/image/quality=70,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2023/11/IMG-20231125-WA0002.jpg?resize=635%2C357&ssl=1",
+      "title": "Candi Minak Jinggo"
+    }
+  ],
+  "rating": 4.2,
+  "price": 3000,
+  "description": [
+    "Candi Minak Jinggo adalah salah satu situs bersejarah peninggalan Majapahit yang terletak di Desa Unggahan, Kecamatan Trowulan, Mojokerto. Candi ini terkenal karena relief-relief unik yang menggambarkan tokoh Minak Jinggo, sosok legendaris dalam cerita rakyat Jawa.",
+    "Candi ini dibangun menggunakan batu andesit dan memiliki gaya arsitektur yang berbeda dari kebanyakan bangunan Majapahit, sehingga punya daya tarik tersendiri buat para pecinta sejarah. Beberapa reliefnya menggambarkan naga, singa, dan tokoh bertubuh besar yang dipercaya sebagai representasi Minak Jinggo.",
+    "Tempat ini cocok buat kamu yang suka eksplor situs sejarah, belajar budaya, atau sekadar menikmati suasana tenang khas kawasan Trowulan yang sarat peninggalan Majapahit."
+  ],
+  "facilities": [
+    { "icon": "fas fa-parking", "title": "Area Parkir" },
+    { "icon": "fas fa-toilet", "title": "Toilet" },
+    { "icon": "fas fa-utensils", "title": "Warung" },
+    { "icon": "fas fa-camera", "title": "Spot Foto" },
+    { "icon": "fas fa-tree", "title": "Area Teduh" },
+    { "icon": "fas fa-info-circle", "title": "Informasi Situs" }
+  ],
+  "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.152893014075!2d112.3838988759311!3d-7.558302992455529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786d1cb3e2ff2b%3A0xeb26005f229a315c!2sCandi%20Minak%20Djinggo!5e0!3m2!1sid!2sid!4v1763516321887!5m2!1sid!2sid",
+  "address": "Jl.Candi Minak Djinggo, Unggaran, Unggahan, Kec. Trowulan, Kabupaten Mojokerto, Jawa Timur 61362"
+}

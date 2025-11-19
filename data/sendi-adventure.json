@@ -1,0 +1,44 @@
+{
+  "title": "Sendi Adventure",
+  "image": [
+    {
+      "url": "https://simasinsurtech.com/wp-content/uploads/2024/03/Sendi-Adventure-Park-traviinsurtech-simas-insurtech-banner.jpeg",
+      "title": "Sendi Adventure"
+    },
+    {
+      "url": "https://www.itrip.id/wp-content/uploads/2022/04/Sendi-Adventure-Pacet-Mojokerto.jpg",
+      "title": "Sendi Adventure"
+    },
+    {
+      "url": "https://liburanyuk.co.id/wp-content/uploads/2020/10/@wetsendi-1024x701.jpg",
+      "title": "Sendi Adventure"
+    },
+    {
+      "url": "https://image.idntimes.com/post/20221003/20221003-143516-329ae2b286ff7799fbbec7d4597d307a-7602b246b8e4ccf72e1ac1b5b682665e.jpg",
+      "title": "Sendi Adventure"
+    },
+    {
+      "url": "https://wisatalova.com/wp-content/uploads/2023/08/1fdc0f893412ce55f0d2811821b84d3b-181-630x380.jpg",
+      "title": "Sendi Adventure"
+    }
+],
+"rating": 4.5,
+  "price": 10000,
+  "description": [
+    "Sendi Adventure adalah destinasi wisata alam yang berada di jalur Pacet–Trawas. Tempat ini terkenal dengan suasana pegunungan yang sejuk, pemandangan tebing yang megah, dan spot foto bernuansa alam yang bikin betah nongkrong.",
+    "Dikelilingi perbukitan hijau dan panorama Gunung Welirang, Sendi Adventure menawarkan pengalaman wisata outdoor yang tenang namun tetap seru buat dieksplorasi. Tempat ini cocok buat keluarga, anak muda, dan pecinta alam.",
+    "Selain spot foto, ada area camping, gardu pandang, dan tempat makan yang langsung menghadap pemandangan alam terbuka. Suasananya adem banget, cocok buat healing tanpa ribet."
+  ],
+  "facilities": [
+    { "icon": "fas fa-parking", "title": "Area Parkir" },
+    { "icon": "fas fa-toilet", "title": "Toilet" },
+    { "icon": "fas fa-mosque", "title": "Mushola" },
+    { "icon": "fas fa-camera", "title": "Banyak Spot Foto" },
+    { "icon": "fas fa-mountain", "title": "Gardu Pandang" },
+    { "icon": "fas fa-fire", "title": "Area Camping" },
+    { "icon": "fas fa-utensils", "title": "Warung & Kuliner" },
+    { "icon": "fas fa-tree", "title": "Area Santai Outdoor" }
+  ],
+  "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.8447746662923!2d112.5299538759321!3d-7.699801792317704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7879f3a47dfedf%3A0xc6221a25a329c262!2sSendi%20Adventure!5e0!3m2!1sid!2sid!4v1763527053828!5m2!1sid!2sid",
+  "address": "Jl. Cangar - Pacet, Hutan, Kec. Pacet, Kabupaten Mojokerto, Jawa Timur 61374"
+}

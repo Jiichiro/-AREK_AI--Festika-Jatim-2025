@@ -1,0 +1,44 @@
+{
+    "title": "Ranu Manduro",
+    "image": [
+      {
+        "url": "https://www.javatravel.net/wp-content/uploads/2022/03/Ranu-Manduro-Mojokerto.jpg",
+        "title": "Ranu Manduro"
+      },
+      {
+        "url": "https://indonesiatraveler.id/wp-content/uploads/2020/04/Ranu-Manduro.IT3_.jpg",
+        "title": "Ranu Manduro"
+      },
+      {
+        "url": "https://indonesiatraveler.id/wp-content/uploads/2020/02/Ranu-Manduro.IT_.jpg",
+        "title": "Ranu Manduro"
+      },
+      {
+        "url": "https://www.itrip.id/wp-content/uploads/2022/04/Harga-Tiket-Ranu-Manduro.jpg",
+        "title": "Ranu Manduro"
+      }
+    ],
+    "rating": 4.3,
+    "price": 0,
+    "description": [
+      "Ranu Manduro adalah destinasi wisata alam buatan yang viral dan menjadi hidden gem di Mojokerto, Jawa Timur. Tempat wisata ini menawarkan pemandangan sabana hijau yang memukau dengan latar belakang Gunung Penanggungan yang menjulang gagah, menciptakan panorama yang sering disebut mirip dengan pemandangan ala New Zealand.",
+      "Terletak di Desa Manduro Manggung Gajah, Kecamatan Ngoro, Ranu Manduro sebenarnya merupakan bekas area tambang pasir sirtu yang beroperasi pada tahun 2016 hingga 2018. Setelah aktivitas pertambangan dihentikan, area bekas galian ini secara alami berubah menjadi hamparan padang rumput hijau yang luas dengan genangan air yang membentuk danau buatan.",
+      "Berada di ketinggian sekitar 30 hingga 120 meter di atas permukaan laut dan di kaki Gunung Penanggungan, Ranu Manduro menawarkan udara yang sejuk dan segar, terutama di pagi dan sore hari. Waktu terbaik untuk berkunjung adalah saat musim hujan ketika rumput-rumput hijau tumbuh subur dan danau buatan terisi penuh, menciptakan pemandangan yang lebih indah dan memukau."
+    ],
+    "facilities": [
+      { "icon": "fas fa-parking", "title": "Area Parkir" },
+      { "icon": "fas fa-mountain", "title": "Sabana Hijau" },
+      { "icon": "fas fa-water", "title": "Danau Buatan" },
+      { "icon": "fas fa-camera", "title": "Spot Foto Instagramable" },
+      { "icon": "fas fa-hiking", "title": "Trekking" },
+      { "icon": "fas fa-campground", "title": "Area Camping" },
+      { "icon": "fas fa-biking", "title": "Bersepeda" },
+      { "icon": "fas fa-utensils", "title": "Warung Makan" },
+      { "icon": "fas fa-tree", "title": "Pemandangan Pegunungan" },
+      { "icon": "fas fa-running", "title": "Sport Tourism" },
+      { "icon": "fas fa-sun", "title": "Sunrise & Sunset View" },
+      { "icon": "fas fa-bread-slice", "title": "Piknik Area" }
+    ],
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1646.6496472647796!2d112.64761759599523!3d-7.572948048344065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7df490bcbd99b%3A0x21b3f133426bae53!2sRanu%20Manduro!5e0!3m2!1sid!2sid!4v1763454078246!5m2!1sid!2sid",
+    "address": "Dusun Manduro, Desa Manduro Manggung Gajah, Kecamatan Ngoro, Kabupaten Mojokerto, Jawa Timur 61385"
+  }

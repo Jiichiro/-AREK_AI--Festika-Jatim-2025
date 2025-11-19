@@ -345,6 +345,7 @@ body {
         overflow-y: auto;
         overflow-x: hidden;
         gap: 12px;
+        height: 500px;
     }
 
     .thumbnail-container::-webkit-scrollbar {

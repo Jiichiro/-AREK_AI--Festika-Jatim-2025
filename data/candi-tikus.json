@@ -1,0 +1,41 @@
+{
+  "title": "Wisata Candi Tikus",
+  "image": [
+    {
+      "url": "https://idsejarah.net/wp-content/uploads/2016/10/canditikus.jpg",
+      "title": "Candi Tikus"
+    },
+    {
+      "url": "https://www.gemasulawesi.com/storage/photos/325422531_623191732898574_3938258243866917479_n-1-1.jpeg",
+      "title": "Candi Tikus"
+    },
+    {
+      "url": "https://salsawisata.com/wp-content/uploads/2023/01/Candi-Tikus.jpg",
+      "title": "Candi Tikus"
+    },
+    {
+      "url": "https://salsawisata.com/wp-content/uploads/2023/01/Sejarah-Candi-Tikus.jpg",
+      "title": "Candi Tikus"
+    }
+  ],
+  "rating": 4.5,
+  "price": 3000,
+  "description": [
+    "Candi Tikus merupakan salah satu peninggalan Kerajaan Majapahit yang memiliki keunikan arsitektur tersendiri. Terletak di kawasan Trowulan, Mojokerto, candi ini diperkirakan berfungsi sebagai petirtaan atau pemandian kerajaan pada masa kejayaan Majapahit.",
+    "Nama 'Tikus' muncul karena ketika ditemukan pada tahun 1914, area candi dipenuhi tikus sawah. Struktur utamanya berupa kolam persegi dikelilingi bangunan bata merah dengan tangga turun ke bagian tengah.",
+    "Desainnya menggambarkan konsep Gunung Mahameru yang dikelilingi samudra, simbol penting dalam kosmologi Hindu-Buddha. Dulunya kolam ini selalu berisi air dari mata air sekitar.",
+    "Kini Candi Tikus telah direstorasi dan menjadi destinasi edukasi populer. Pengunjung bisa melihat struktur kuno, relief, serta area taman yang tertata. Tempat ini menjadi bukti kecanggihan teknologi hidraulik Majapahit."
+  ],
+  "facilities": [
+    { "icon": "fas fa-parking", "title": "Area Parkir" },
+    { "icon": "fas fa-toilet", "title": "Toilet Umum" },
+    { "icon": "fas fa-store", "title": "Toko Souvenir" },
+    { "icon": "fas fa-mosque", "title": "Mushola" },
+    { "icon": "fas fa-camera", "title": "Spot Foto" },
+    { "icon": "fas fa-tree", "title": "Taman" },
+    { "icon": "fas fa-book", "title": "Museum Mini" },
+    { "icon": "fas fa-info-circle", "title": "Pusat Informasi" }
+  ],
+  "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.029185019296!2d112.40095677593138!3d-7.571796992442385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786d1fdd9add5d%3A0xad81bb21c4b5b075!2sCandi%20Tikus!5e0!3m2!1sid!2sid!4v1763516273576!5m2!1sid!2sid",
+  "address": "Kompleks Trowulan, Dinuk, Temon, Kec. Trowulan, Kabupaten Mojokerto, Jawa Timur 61362"
+}

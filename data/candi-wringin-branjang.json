@@ -1,0 +1,34 @@
+{
+  "title": "Wisata Candri Wringin Branjang",
+  "image": [
+    {
+      "url": "https://4.bp.blogspot.com/-WmEZAatup8g/XIjBmWNo47I/AAAAAAAAzlk/tkhZYa0Qg6YCUhnQXuxskxziuHqKKx4FQCLcBGAs/s1600/Candi%2BWringin%2BBranjang%2B1.jpg",
+      "title": "Wisata Candri Wringin Branjang"
+    },
+    {
+      "url": "https://candi.nusantara360.id/web/wp-content/uploads/2021/11/Wringin-Branjang.jpg",
+      "title": "Wisata Candri Wringin Branjang"
+    },
+    {
+      "url": "https://1001indonesia.net/asset/2020/10/Candi-Wringin-Branjang.jpg",
+      "title": "Wisata Candri Wringin Branjang"
+    }
+  ],
+  "rating": 4.5,
+  "price": 0,
+  "description": [
+    "Wisata Candri Wringin Branjang merupakan destinasi bersejarah yang terletak di kawasan Kemlagi, Mojokerto. Tempat ini dikenal sebagai situs peninggalan zaman Kerajaan Majapahit yang masih berdiri kokoh hingga sekarang.",
+    "Suasana di sekitar candi sangat tenang, dikelilingi pepohonan besar dan lingkungan pedesaan yang sejuk. Cocok untuk kamu yang suka wisata budaya, sejarah, atau sekadar ingin menikmati nuansa klasik Mojokerto.",
+    "Selain menikmati arsitektur candi, pengunjung juga bisa berkeliling area taman, berfoto, atau belajar mengenai sejarah peninggalan Majapahit dari informasi yang tersedia di lokasi."
+  ],
+  "facilities": [
+    { "icon": "fas fa-parking", "title": "Area Parkir" },
+    { "icon": "fas fa-toilet", "title": "Toilet" },
+    { "icon": "fas fa-tree", "title": "Area Teduh" },
+    { "icon": "fas fa-landmark", "title": "Situs Candi Bersejarah" },
+    { "icon": "fas fa-camera", "title": "Spot Foto" },
+    { "icon": "fas fa-info-circle", "title": "Informasi Sejarah" }
+  ],
+  "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.366912137481!2d112.389987!3d-7.673032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77e26888fb3c7b%3A0x1f6a7758e5e1df2c!2sCandi%20Wringin%20Branjang!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid",
+  "address": "Desa Wringin Branjang, Kecamatan Kemlagi, Kabupaten Mojokerto, Jawa Timur"
+}

@@ -1,0 +1,44 @@
+{
+    "title": "Taman Ghanjaran",
+    "image": [
+      {
+        "url": "https://salsawisata.com/wp-content/uploads/2023/01/wahana-Taman-Ghanjaran.jpg",
+        "title": "Taman Ghanjaran"
+      },
+      {
+        "url": "https://www.gresiksatu.com/wp-content/uploads/2024/05/wisata-taman-ghanjaran-mojokerto-2-704x420.jpg",
+        "title": "Taman Ghanjaran"
+      },
+      {
+        "url": "https://batamnewsasia.com/wp-content/uploads/2024/04/751B-1024x577.jpeg",
+        "title": "Taman Ghanjaran"
+      },
+      {
+        "url": "https://salsawisata.com/wp-content/uploads/2023/01/bianglala-Taman-Ghanjaran.jpg",
+        "title": "Taman Ghanjaran"
+      }
+    ],
+    "rating": 4.6,
+    "price": 5000,
+    "description": [
+      "Taman Ghanjaran adalah destinasi wisata taman bermain yang populer di kawasan Trawas, Mojokerto, Jawa Timur. Tempat ini menjadi salah satu destinasi wisata andalan dengan konsep unik yang memadukan taman bermain modern dengan pemandangan alam pegunungan yang menakjubkan. Dibangun di atas lahan seluas 2,8 hektar milik Desa Ketapanrame, taman ini dirancang sebagai tempat rekreasi keluarga yang nyaman dan menyenangkan.",
+      "Terletak di ketinggian sekitar 1.000 mdpl, Taman Ghanjaran menawarkan udara sejuk khas pegunungan dengan pemandangan spektakuler Gunung Welirang dan Gunung Penanggungan yang menjulang gagah sebagai latar belakang. Keunikan taman ini adalah kamu bisa menikmati berbagai wahana permainan seru sambil dikelilingi panorama hijau lereng pegunungan yang memukau mata.",
+      "Taman Ghanjaran menyediakan lebih dari 15 wahana permainan yang cocok untuk semua usia, mulai dari bianglala yang ikonik, cinema 9D dengan sensasi mendebarkan, perahu naga (kora-kora), berbagai permainan anak seperti komidi putar dan boom boom car, hingga kolam renang untuk bersantai. Saat malam tiba, taman akan dihiasi lampu-lampu warna-warni yang cantik, menciptakan suasana romantis dan Instagramable."
+    ],
+    "facilities": [
+      { "icon": "fas fa-parking", "title": "Area Parkir Luas" },
+      { "icon": "fas fa-toilet", "title": "Toilet Bersih" },
+      { "icon": "fas fa-mosque", "title": "Mushola" },
+      { "icon": "fas fa-utensils", "title": "Food Court" },
+      { "icon": "fas fa-ferris-wheel", "title": "Bianglala" },
+      { "icon": "fas fa-film", "title": "Cinema 9D" },
+      { "icon": "fas fa-swimming-pool", "title": "Kolam Renang" },
+      { "icon": "fas fa-child", "title": "Area Bermain Anak" },
+      { "icon": "fas fa-camera", "title": "Spot Foto Instagramable" },
+      { "icon": "fas fa-chair", "title": "Kursi Santai" },
+      { "icon": "fas fa-motorcycle", "title": "Sewa Skuter & Mobil Mini" },
+      { "icon": "fas fa-lightbulb", "title": "Dekorasi Lampu Malam" }
+    ],
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467.5467413817776!2d112.60433842843062!3d-7.665991807498617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e787770df02e197%3A0x1dd4f54105f4061d!2sTaman%20Ghanjaran!5e0!3m2!1sid!2sid!4v1763453482904!5m2!1sid!2sid",
+    "address": "Jl. Raya Tretes-Trawas No. 88, Slepi, Desa Ketapanrame, Kec. Trawas, Kabupaten Mojokerto, Jawa Timur 61375"
+  }

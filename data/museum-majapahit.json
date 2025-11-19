@@ -1,0 +1,40 @@
+{
+    "title": "Museum Majapahit",
+    "image": [
+      {
+        "url": "https://kemuseum.or.id/wp-content/uploads/2020/07/museum-majapahit-trowulan4.jpg",
+        "title": "Museum Majapahit"
+      },
+      {
+        "url": "https://kemuseum.or.id/wp-content/uploads/2020/07/museum-majapahit-trowulan3.jpg",
+        "title": "Museum Majapahit"
+      },
+      {
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJldDfLnplmVTwRiKxqXdP4EmaJJTh6xmH58ZP5vEsm-9-YqKhID1F8smht6I2-Vy-Goph-jNbFa4UwVviWCDsYd_DBr6z1AtfIVfzV3SDQBe7UDPQpknVewvfqFAjvt2gU_ijMsb7R4hZ/s1600/Museum_trowulan_11+-+Copy.jpg",
+        "title": "Museum Majapahit"
+      },
+      {
+        "url": "https://idsejarah.net/wp-content/uploads/2016/09/MuseumTrowulan.jpg",
+        "title": "Museum Majapahit"
+      }
+    ],
+    "rating": 4.7,
+    "price": 5000,
+    "description": [
+      "Museum Majapahit sering disebut juga Museum Trowulan adalah pusat penyimpanan artefak terbesar peninggalan Kerajaan Majapahit. Berlokasi di Trowulan, Mojokerto, museum ini menyimpan ribuan benda sejarah seperti keramik, arca, prasasti, bata kuno, senjata, hingga replika bangunan era Majapahit.",
+      "Museum ini pertama dibangun sejak masa kolonial sebagai tempat mengumpulkan temuan arkeologi di kawasan bekas ibu kota Majapahit. Koleksinya terus berkembang dari waktu ke waktu, menghadirkan gambaran jelas mengenai kehidupan masyarakat Majapahit mulai dari seni, teknologi, hingga sistem pemerintahan.",
+      "Pengunjung dapat menjelajahi galeri indoor dan outdoor, termasuk situs pemukiman kuno, sumur, serta berbagai struktur bata merah khas Majapahit. Museum ini cocok untuk edukasi sejarah dan jadi destinasi wajib buat siapa pun yang ingin mengenal kejayaan Nusantara masa lampau."
+    ],
+    "facilities": [
+      { "icon": "fas fa-parking", "title": "Area Parkir" },
+      { "icon": "fas fa-toilet", "title": "Toilet Umum" },
+      { "icon": "fas fa-store", "title": "Toko Souvenir" },
+      { "icon": "fas fa-mosque", "title": "Mushola" },
+      { "icon": "fas fa-camera", "title": "Spot Foto" },
+      { "icon": "fas fa-tree", "title": "Taman" },
+      { "icon": "fas fa-book", "title": "Ruang Koleksi" },
+      { "icon": "fas fa-info-circle", "title": "Pusat Informasi" }
+    ],
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.137423647004!2d112.37803427593117!3d-7.559991692453918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786ce190935909%3A0xb34204a2f98df670!2sMuseum%20Majapahit!5e0!3m2!1sid!2sid!4v1763440504731!5m2!1sid!2sid",
+    "address": "Jl. Pendopo Agung, Ngelinguk, Trowulan, Kec. Trowulan, Kabupaten Mojokerto, Jawa Timur 61362"
+  }

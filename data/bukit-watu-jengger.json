@@ -18,7 +18,7 @@
       "title": "Thumbnail 4"
     }
   ],
-  "rating": 4.91,
+  "rating": 4.6,
   "price": 5000,
   "description": [
     [
@@ -51,6 +51,6 @@
       "title": "Basecamp"
     }
   ],
-  "googleMap": "https://www.google.com/maps/dir/?api=1&destination=Bukit+Watu+Jengger",
+  "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.8501522504216!2d112.4322289759322!3d-7.699225392318225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78700298ac40f5%3A0xa132e93cc41152cf!2sBukit%20Watu%20Jengger!5e0!3m2!1sid!2sid!4v1763516180653!5m2!1sid!2sid",
   "address": "Hutan, Kabupaten Mojokerto, Jawa Timur"
 }

@@ -1,0 +1,44 @@
+{
+    "title": "Petirtaan Jolotundo",
+    "image": [
+      {
+        "url": "https://www.nativeindonesia.com/foto/2023/09/petirtaan-jolotundo-mojokerto.jpg",
+        "title": "Petirtaan Jolotundo"
+      },
+      {
+        "url": "https://nativeindonesia.com/wp-content/uploads/2023/09/wisata-petirtaan-jolotundo-mojokerto.jpg",
+        "title": "Petirtaan Jolotundo"
+      },
+      {
+        "url": "https://cdn.antaranews.com/cache/1200x800/2023/07/24/Unduh-Petirtaan-Jolotundo-24072023-Um-3.jpg",
+        "title": "Petirtaan Jolotundo"
+      },
+      {
+        "url": "https://idsejarah.net/wp-content/uploads/2016/12/51.jpg",
+        "title": "Petirtaan Jolotundo"
+      }
+    ],
+    "rating": 4.5,
+    "price": 10000,
+    "description": [
+      "Petirtaan Jolotundo adalah situs purbakala bersejarah yang merupakan kompleks petirtaan kuno atau pemandian suci peninggalan Kerajaan Medang dari abad ke-10 Masehi. Terletak di lereng barat Gunung Penanggungan pada ketinggian sekitar 525 meter di atas permukaan laut, petirtaan ini menawarkan suasana mistis dan spiritual yang kental dengan sejarah peradaban Hindu-Buddha di Nusantara.",
+      "Dibangun pada tahun 977 Masehi (899 Saka), Petirtaan Jolotundo merupakan salah satu petirtaan tertua dan terbesar di Jawa Timur yang masih berfungsi hingga saat ini. Petirtaan ini dipersembahkan sebagai wujud cinta kasih Raja Udayana untuk menyambut kelahiran putranya yang kelak menjadi Raja Airlangga, penguasa besar yang mendirikan Kerajaan Kahuripan di Jawa Timur.",
+      "Air Petirtaan Jolotundo dipercaya memiliki kualitas terbaik nomor dua di dunia setelah air Zamzam di Mekkah. Air ini mengandung mineral tinggi dan diyakini memiliki khasiat untuk kesehatan, kecantikan, hingga awet muda. Hingga kini, banyak peziarah dan wisatawan yang datang untuk melakukan ritual penyucian diri, meditasi, atau sekadar mandi di kolam suci sambil merasakan energi spiritual yang kuat."
+    ],
+    "facilities": [
+      { "icon": "fas fa-parking", "title": "Area Parkir" },
+      { "icon": "fas fa-water", "title": "Kolam Pemandian Suci" },
+      { "icon": "fas fa-monument", "title": "Situs Cagar Budaya" },
+      { "icon": "fas fa-camera", "title": "Spot Foto Bersejarah" },
+      { "icon": "fas fa-pray", "title": "Ritual Spiritual" },
+      { "icon": "fas fa-hiking", "title": "Jalur Pendakian" },
+      { "icon": "fas fa-spa", "title": "Pemandian Air Suci" },
+      { "icon": "fas fa-door-open", "title": "Ruang Ganti" },
+      { "icon": "fas fa-mountain", "title": "Pemandangan Gunung Penanggungan" },
+      { "icon": "fas fa-book", "title": "Wisata Edukasi Sejarah" },
+      { "icon": "fas fa-tree", "title": "Taman & Hutan Hijau" },
+      { "icon": "fas fa-om", "title": "Tempat Meditasi" }
+    ],
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.1964023790997!2d112.59527500191733!3d-7.609277748050318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7876718ed4bab9%3A0xbc6599836631f809!2sPetirtaan%20Jolotundo!5e0!3m2!1sid!2sid!4v1763454864708!5m2!1sid!2sid",
+    "address": "Dukuh Balekambang, Desa Seloliman, Kecamatan Trawas, Kabupaten Mojokerto, Jawa Timur 61375"
+  }

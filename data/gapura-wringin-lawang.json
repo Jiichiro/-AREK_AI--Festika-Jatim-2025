@@ -23,11 +23,11 @@
     "description": ["Gapura Wringin Lawang merupakan salah satu peninggalan penting dari masa Kerajaan Majapahit. Bangunan ini berbentuk candi bentar yang tersusun dari bata merah dan berdiri dengan ukuran yang menjulang, sehingga memberi kesan megah sekaligus anggun.","Ketika berkunjung, suasana yang terasa sangat tenang dan sarat nuansa sejarah. Lingkungannya memberikan gambaran kuat tentang kejayaan masa lampau. Sebagai salah satu situs bersejarah yang masih terawat, Gapura Wringin Lawang sering menjadi tujuan wisata untuk menikmati keindahan arsitektur klasik dan mengambil foto bernuansa tradisional."],
     "facilities": [
         {
-            "icon": "fa-parking",
+            "icon": "fas fa-parking",
             "title": "Area Parkir"
         },
         {
-            "icon": "fa-toilet",
+            "icon": "fas fa-toilet",
             "title": "Toilet Umum"
         }
     ],

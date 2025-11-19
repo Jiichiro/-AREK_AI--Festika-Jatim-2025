@@ -1,0 +1,35 @@
+{
+    "title": "Kolam Segaran",
+    "image": [
+      {
+        "url": "https://cdn.ngopibareng.id/uploads/2022/2022-10-21/kolam-segaran-tempat-nongkrong-bersejarah-di-mojokerto--thumbnail-869.webp",
+        "title": "Kolam Segaran"
+      },
+      {
+        "url": "https://sejingga.com/wp-content/uploads/2020/10/image.jpg",
+        "title": "Kolam Segaran"
+      },
+      {
+        "url": "https://thumb.viva.id/vivabali/665x374/2025/06/27/685e90cd42056-kolam-segaran-peninggalan-kerajaan-majapahit-di-mojokerto_bali.jpg",
+        "title": "Kolam Segaran"
+      }
+    ],
+    "rating": 4.4,
+    "price": 0,
+    "description": [
+      "Kolam Segaran adalah kolam kuno terbesar peninggalan Kerajaan Majapahit yang berlokasi di Trowulan, Mojokerto. Kolam ini memiliki ukuran sekitar 375 meter × 175 meter dengan kedalaman hingga 3 meter, dibangun menggunakan bata merah khas Majapahit.",
+      "Menurut catatan sejarah, Kolam Segaran digunakan sebagai tempat rekreasi, tampungan air, hingga simbol kemakmuran kerajaan. Ada pula cerita populer bahwa tempat ini dipakai raja untuk menjamu tamu penting, di mana peralatan makan emas konon dibuang ke kolam sebagai bentuk kemewahan.",
+      "Kini, Kolam Segaran menjadi salah satu ikon wisata sejarah Majapahit. Pengunjung bisa menikmati pemandangan kolam yang luas, area sekitar yang teduh, serta suasana tenang yang membawa nuansa masa lalu. Cocok untuk wisata edukasi, keluarga, maupun sekadar bersantai."
+    ],
+    "facilities": [
+      { "icon": "fas fa-parking", "title": "Area Parkir" },
+      { "icon": "fas fa-toilet", "title": "Toilet Umum" },
+      { "icon": "fas fa-utensils", "title": "Warung" },
+      { "icon": "fas fa-mosque", "title": "Mushola" },
+      { "icon": "fas fa-camera", "title": "Spot Foto" },
+      { "icon": "fas fa-tree", "title": "Taman" },
+      { "icon": "fas fa-info-circle", "title": "Pusat Informasi" }
+    ],
+    "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.167503389351!2d112.39970507593117!3d-7.557347892456046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786d02bebd0e61%3A0x58b7df684fd18d0c!2sKolam%20Segaran!5e0!3m2!1sid!2sid!4v1763440504731!5m2!1sid!2sid",
+    "address": "Segaran, Trowulan, Kabupaten Mojokerto, Jawa Timur 61362"
+  }

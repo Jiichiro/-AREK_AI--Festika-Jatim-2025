@@ -1,0 +1,44 @@
+{
+  "title": "Alun-Alun Mojokerto",
+  "image": [
+    {
+      "url": "https://salsawisata.com/wp-content/uploads/2022/12/tugu-Alun-alun-Mojokerto-600x450.jpg",
+      "title": "Alun-Alun Mojokerto"
+    },
+    {
+      "url": "https://salsawisata.com/wp-content/uploads/2022/12/view-Alun-alun-Mojokerto.jpg",
+      "title": "Alun-Alun Mojokerto"
+    },
+    {
+      "url": "https://viuit.id/wp-content/uploads/2022/07/image.png",
+      "title": "Alun-Alun Mojokerto"
+    },
+    {
+      "url": "https://gemamedia.mojokertokota.go.id/uploads/2024/02/8dee89835f91c03c79a3a08a487f2932.jpg",
+      "title": "Alun-Alun Mojokerto"
+    },
+    {
+      "url": "https://kataomed.com/wp-content/uploads/2020/04/bundaran-alun-alun-mojokerto.jpeg",
+      "title": "Alun-Alun Mojokerto"
+    }
+  ],
+  "rating": 4.4,
+  "price": 0,
+  "description": [
+    "Alun-Alun Mojokerto adalah ruang publik ikonik yang berada di pusat kota. Tempat ini jadi lokasi favorit warga untuk nongkrong, bersantai, dan menikmati suasana kota yang ramai namun tetap nyaman.",
+    "Dikelilingi pepohonan rindang, area pedestrian, dan spot foto yang rapi, alun-alun ini cocok untuk rekreasi keluarga, olahraga ringan, atau sekadar jalan santai sore hari.",
+    "Di sekitar alun-alun juga banyak pedagang kaki lima serta bangunan bersejarah yang membuat suasananya semakin hidup dan menarik."
+  ],
+  "facilities": [
+    { "icon": "fas fa-parking", "title": "Area Parkir" },
+    { "icon": "fas fa-toilet", "title": "Toilet" },
+    { "icon": "fas fa-tree", "title": "Area Taman" },
+    { "icon": "fas fa-walking", "title": "Trek Jalan Kaki" },
+    { "icon": "fas fa-child", "title": "Area Bermain Anak" },
+    { "icon": "fas fa-store", "title": "Pedagang Kaki Lima" },
+    { "icon": "fas fa-camera", "title": "Spot Foto" },
+    { "icon": "fas fa-bicycle", "title": "Area Sepeda" }
+  ],
+  "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.018027288802!2d112.42936017593038!3d-7.463256692548234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780df51da946f5%3A0xec7269ac0de85609!2sAlun-Alun%20Mojokerto%2C%20Mergelo%2C%20Kota%20Mojokerto%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1763533996023!5m2!1sid!2sid",
+  "address": "Jl. Residen Pamuji, Mergelo, Balongsari, Kec. Magersari, Kota Mojokerto, Jawa Timur"
+}

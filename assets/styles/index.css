@@ -692,7 +692,21 @@ footer {
     /* Header Mobile */
     header {
         padding: 15px 20px;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+    }
+
+    header .menu-toggle i {
+        transition: all 0.3s ease-in-out;
+        color: white;
+    }
+
+    header:has(nav.scrolled), header:has(nav.active) {
         background-color: rgba(255, 255, 255, 0.95);
+    }
+
+    header:has(nav.scrolled) .menu-toggle i, header:has(nav.active) .menu-toggle i {
+        color: black;
     }
 
     nav {
@@ -721,6 +735,10 @@ footer {
         display: flex;
     }
 
+    nav.scrolled {
+        transform: translateX(0);
+    }
+
     .menu-toggle {
         display: block;
         color: #333;
@@ -737,7 +755,7 @@ footer {
         width: 95%;
         height: 70dvh;
         border-radius: 16px;
-        margin: 0 auto 40px auto;
+        margin: 200px auto 40px auto;
     }
 
     .hero-content {
@@ -899,7 +917,6 @@ footer {
     .jelajahi-container {
         padding: 20px 15px;
         border-radius: 15px;
-        margin: 0 10px;
     }
 
     .jelajahi-header h2 {
@@ -929,6 +946,7 @@ footer {
     }
 
     .jelajahi-cards-grid {
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
         gap: 16px;
         padding: 10px 0 18px 0;
     }

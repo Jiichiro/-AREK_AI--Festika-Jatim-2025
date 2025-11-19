@@ -1,0 +1,42 @@
+{
+  "title": "Gunung Penanggungan",
+  "image": [
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3cvQZc-Bn-islai1Wx3TpeFcZbZ7iljMyodIWt2ibU3PgCxJA4bboxj8HeOqVuGHRXu6-zl3iH4iTZD5N4W-_BrfpYZLn3RPu83O4DxGaWfHZMNaUmj_R-0wqmqmZ8inb_cqmm-Lv1lA/w640-h472/SAM_2704.JPG",
+      "title": "Gunung Penanggungan"
+    },
+    {
+      "url": "https://travelspromo.com/wp-content/uploads/2020/12/Pesona-bentang-alam-gunung-penanggungan.jpg",
+      "title": "Gunung Penanggungan"
+    },
+    {
+      "url": "https://salsawisata.com/wp-content/uploads/2022/12/drone-view-Gunung-Penanggungan.jpg",
+      "title": "Gunung Penanggungan"
+    },
+    {
+      "url": "https://2.bp.blogspot.com/-5wSuZbuuGK4/UWs5tRAkQZI/AAAAAAAAAE8/FKybrV10oHo/s1600/penanggungan3+copy.jpg",
+      "title": "Gunung Penanggungan"
+    }
+  ],
+  "rating": 4.7,
+  "price": 10000,
+  "description": [
+    "Gunung Penanggungan adalah gunung berapi yang sudah tidak aktif dengan ketinggian 1.653 mdpl, terletak di perbatasan Kabupaten Mojokerto dan Pasuruan, Jawa Timur. Gunung ini memiliki nilai sejarah dan spiritual yang sangat tinggi karena menyimpan lebih dari 80 situs candi peninggalan era Majapahit yang tersebar di lereng-lerengnya.",
+    "Penanggungan dikenal sebagai \"Gunung Suci\" atau \"Replica Gunung Mahameru\" dalam kepercayaan Hindu-Budha kuno. Jalur pendakiannya relatif mudah dan cocok untuk pemula, dengan waktu tempuh sekitar 3–4 jam dari basecamp menuju puncak. Pemandangan dari puncak sangat spektakuler, kamu bisa melihat Gunung Arjuno-Welirang, Gunung Bromo, hingga Kota Surabaya.",
+    "Sepanjang perjalanan, kamu akan melewati hutan tropis yang rimbun, berbagai candi kuno seperti Candi Jolotundo, serta spot foto yang Instagramable. Udara sejuk pegunungan dan suasana mistis dari situs bersejarah memberikan pengalaman pendakian yang unik.",
+    "Tempat ini cocok untuk hiking, fotografi, sejarah dan budaya, atau ingin mendaki dengan tingkat kesulitan rendah hingga sedang. Gunung Penanggungan juga sering dipakai untuk ritual keagamaan dan meditasi karena energi spiritualnya."
+  ],
+  "facilities": [
+    { "icon": "fas fa-parking", "title": "Area Parkir" },
+    { "icon": "fas fa-toilet", "title": "Toilet" },
+    { "icon": "fas fa-mosque", "title": "Mushola" },
+    { "icon": "fas fa-utensils", "title": "Warung Makan" },
+    { "icon": "fas fa-campground", "title": "Area Camping" },
+    { "icon": "fas fa-camera", "title": "Spot Foto Puncak" },
+    { "icon": "fas fa-hiking", "title": "Jalur Pendakian" },
+    { "icon": "fas fa-landmark", "title": "Situs Candi Bersejarah" },
+    { "icon": "fas fa-map-signs", "title": "Pos Pendakian" }
+  ],
+  "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15818.525530515391!2d112.60985966271687!3d-7.615027928403211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7d8a014c487ad%3A0xc3bad5c8087f05f2!2sGn.%20Penanggungan!5e0!3m2!1sid!2sid!4v1763516402118!5m2!1sid!2sid",
+  "address": "Tamiajeng, Kec. Trawas, Kabupaten Mojokerto, Jawa Timur 61375"
+}
