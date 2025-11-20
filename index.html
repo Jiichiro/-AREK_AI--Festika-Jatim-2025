@@ -19,18 +19,36 @@
   <!-- Header -->
   <header>
     <nav id="mainNav">
-      <a href="#beranda">Beranda</a>
+      <a href="#hero">Beranda</a>
       <a href="#tentang">Tentang</a>
-      <a href="#sejarah">Sejarah</a>
+      <a href="#jelajahi">Jelajahi</a>
     </nav>
     <div class="menu-toggle" onclick="toggleMenu()">
       <i class="fas fa-bars"></i>
     </div>
+    <button class="open-search-button" onclick="document.getElementById('searchDialog').showModal()"><i class="fas fa-search">Cari</i></button>
   </header>
+
+  <dialog id="searchDialog">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h2>Cari</h2>
+        <button class="close-btn" onclick="document.getElementById('searchDialog').close()">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+
+      <input type="text" class="search-input" id="searchInput" placeholder="Ketik untuk mencari..." oninput="filterResults(this.value)">
+
+      <div class="results-container" id="resultsContainer">
+        <div class="empty-state">Mulai mengetik untuk mencari</div>
+      </div>
+    </div>
+  </dialog>
 
   <div class="container-1">
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="hero" class="hero">
       <div class="hero-content">
         <h1>Jelajahi Keindahan Mojokerto</h1>
         <p>Seluruh tempat wisata mojokerto dalam satu tempat.</p>

@@ -1,0 +1,155 @@
+[
+    {
+        "nama": "Bukit Watu Jengger",
+        "tipe": "Wisata Alam",
+        "rating": 4.91,
+        "reviews": 8000,
+        "harga": 5000,
+        "image": "assets/images/bukit-watu-jengger-mojokerto.webp",
+        "url": "destinations.html?dest=bukit-watu-jengger"
+    },
+    {
+        "nama": "Air Terjun Dlundung",
+        "tipe": "Wisata Alam",
+        "rating": 4.85,
+        "reviews": 12000,
+        "harga": 10000,
+        "image": "assets/images/air-terjun-dlundung-mojokerto.webp",
+        "url": "destinations.html?dest=air-terjun-dlundung"
+    },
+    {
+        "nama": "Candi Bajang Ratu",
+        "tipe": "Wisata Sejarah",
+        "rating": 4.95,
+        "reviews": 5000,
+        "harga": 3000,
+        "image": "assets/images/candi-bajang-ratu-mojokerto.webp",
+        "url": "destinations.html?dest=candi-bajang-ratu"
+    },
+    {
+        "nama": "Gapura Wringin Lawang",
+        "tipe": "Wisata Sejarah",
+        "rating": 4.8,
+        "reviews": 3000,
+        "harga": 10000,
+        "image": "assets/images/gapura-wringin-lawang-mojokerto.webp",
+        "url": "destinations.html?dest=gapura-wringin-lawang"
+    },
+    {
+        "nama": "Patung Budha Tidur",
+        "tipe": "Wisata Religi",
+        "rating": 4.88,
+        "reviews": 9000,
+        "harga": 5000,
+        "image": "assets/images/patung-buddha-tidur.webp",
+        "url": "destinations.html?dest=patung-budha-tidur"
+    },
+    {
+        "nama": "Candi Tikus",
+        "tipe": "Wisata Sejarah",
+        "rating": 4.82,
+        "reviews": 11000,
+        "harga": 3000,
+        "image": "assets/images/candi-tikus.webp",
+        "url": "destinations.html?dest=candi-tikus"
+    },
+    {
+        "nama": "Museum Majapahit",
+        "tipe": "Wisata Edukasi",
+        "rating": 4.78,
+        "reviews": 4000,
+        "harga": 5000,
+        "image": "assets/images/museum-majapahit-mojokerto.webp",
+        "url": "destinations.html?dest=museum-majapahit"
+    },
+    {
+        "nama": "Kolam Segaran",
+        "tipe": "Wisata Sejarah",
+        "rating": 4.7,
+        "reviews": 3500,
+        "harga": 0,
+        "image": "assets/images/kolam-segaran.webp",
+        "url": "destinations.html?dest=kolam-segaran"
+    },
+    {
+        "nama": "Candi Minak Jinggo",
+        "tipe": "Wisata Sejarah",
+        "rating": 4.75,
+        "reviews": 2000,
+        "harga": 3000,
+        "image": "assets/images/candi-minak-jinggo.webp",
+        "url": "destinations.html?dest=candi-minak-jinggo"
+    },
+    {
+        "nama": "Air Terjun Coban Canggu",
+        "tipe": "Wisata Alam",
+        "rating": 4.83,
+        "reviews": 8900,
+        "harga": 10000,
+        "image": "assets/images/air-terjun-coban-canggu-mojokerto.webp",
+        "url": "destinations.html?dest=air-terjun-coban-canggu"
+    },
+    {
+        "nama": "Gunung Penanggungan",
+        "tipe": "Wisata Alam",
+        "rating": 4.92,
+        "reviews": 14000,
+        "harga": 5000,
+        "image": "assets/images/gunung-penanggungan.webp",
+        "url": "destinations.html?dest=gunung-penanggungan"
+    },
+    {
+        "nama": "Taman Ghanjaran",
+        "tipe": "Wisata Keluarga",
+        "rating": 4.81,
+        "reviews": 30000,
+        "harga": 10000,
+        "image": "assets/images/taman-ghanjaran.webp",
+        "url": "destinations.html?dest=taman-ghanjaran"
+    },
+    {
+        "nama": "Ranu Manduro",
+        "tipe": "Wisata Alam",
+        "rating": 4.65,
+        "reviews": 12000,
+        "harga": 0,
+        "image": "assets/images/ranu-manduro.webp",
+        "url": "destinations.html?dest=ranu-manduro"
+    },
+    {
+        "nama": "Petirtaan Jolotundo",
+        "tipe": "Wisata Religi",
+        "rating": 4.89,
+        "reviews": 6000,
+        "harga": 8000,
+        "image": "assets/images/petirtaan-jolotundo.webp",
+        "url": "destinations.html?dest=petirtaan-jolotundo"
+    },
+    {
+        "nama": "Sendi Adventure",
+        "tipe": "Wisata Alam",
+        "rating": 4.77,
+        "reviews": 7000,
+        "harga": 10000,
+        "image": "assets/images/sendi-adventure.webp",
+        "url": "destinations.html?dest=sendi-adventure"
+    },
+    {
+        "nama": "Alun-Alun Mojokerto",
+        "tipe": "Wisata Kota",
+        "rating": 4.6,
+        "reviews": 50000,
+        "harga": 0,
+        "image": "assets/images/alun-alun-mojokerto.webp",
+        "url": "destinations.html?dest=alun-alun-mojokerto"
+    },
+    {
+        "nama": "Candi Wringin Branjang",
+        "tipe": "Wisata Sejarah",
+        "rating": 4.66,
+        "reviews": 1700,
+        "harga": 0,
+        "image": "assets/images/candi-wringin-branjang.webp",
+        "url": "destinations.html?dest=candi-wringin-branjang"
+    }
+]

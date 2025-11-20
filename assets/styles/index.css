@@ -51,7 +51,8 @@ nav {
 }
 
 nav.scrolled {
-    transform: translateX(43%); /* Geser setengah ke kiri */
+    transform: translateX(43%);
+    /* Geser setengah ke kiri */
 }
 
 nav a {
@@ -66,7 +67,7 @@ nav.scrolled a {
 }
 
 nav a:hover {
-    color: #4CAF50;
+    color: #a34941;
 }
 
 .menu-toggle {
@@ -125,7 +126,7 @@ nav a:hover {
 }
 
 .btn-jelajahi {
-    background-color: #4CAF50;
+    background-color: #a34941;
     color: white;
     padding: 12px 30px;
     border: none;
@@ -134,16 +135,17 @@ nav a:hover {
     font-size: 16px;
     font-weight: 600;
     transition: background-color 0.3s;
+    text-decoration: none;
 }
 
 .btn-jelajahi:hover {
-    background-color: #45a049;
+    background-color: #853b35;
 }
 
 .hero-label {
     display: flex;
     flex-wrap: wrap;
-    width: 150px;
+    width: 200px;
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -152,6 +154,7 @@ nav a:hover {
     border-radius: 5px;
     font-size: 20px;
     font-weight: bolder;
+    text-align: right;
 }
 
 .stats {
@@ -170,89 +173,6 @@ nav a:hover {
     font-weight: 700;
     color: #a34941;
     line-height: 1;
-}
-
-/* Search Section */
-.search-section {
-    background-color: white;
-    padding: 40px;
-    margin: 20px;
-    border-radius: 15px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.search-box {
-    display: flex;
-    max-width: 600px;
-    margin: 0 auto 40px;
-    border: 2px solid #ddd;
-    border-radius: 25px;
-    overflow: hidden;
-}
-
-.search-box input {
-    flex: 1;
-    padding: 12px 20px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-}
-
-.search-box button {
-    background-color: transparent;
-    border: none;
-    padding: 0 20px;
-    cursor: pointer;
-    color: #666;
-}
-
-/* Category Section */
-.category-title {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 14px;
-    color: #666;
-}
-
-.categories {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.category-item {
-    width: 120px;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border: 2px solid #ddd;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: all 0.3s;
-    text-align: center;
-}
-
-.category-item:hover {
-    border-color: #4CAF50;
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.category-item i {
-    font-size: 32px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.category-item span {
-    font-size: 12px;
-    color: #333;
 }
 
 /* Destinations Section */
@@ -535,7 +455,8 @@ footer {
 .jelajahi-filter-section {
     display: flex;
     gap: 12px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    white-space: nowrap;
     align-items: center;
     margin-bottom: 24px;
 }
@@ -561,27 +482,6 @@ footer {
 .jelajahi-filter-btn.active {
     background: #5a67d8;
     color: white;
-}
-
-.jelajahi-filter-icon {
-    background: white;
-    color: #5a67d8;
-    border: 1px solid #e2e8f0;
-    padding: 8px 16px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 13px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-left: auto;
-    transition: all 0.3s;
-    font-family: inherit;
-}
-
-.jelajahi-filter-icon:hover {
-    background: #f7fafc;
-    border-color: #cbd5e0;
 }
 
 .jelajahi-cards-grid {
@@ -622,18 +522,6 @@ footer {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
     padding: 20px;
     color: white;
-}
-
-.jelajahi-card-badge {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 11px;
-    color: #5a67d8;
-    font-weight: 600;
 }
 
 .jelajahi-card-title {
@@ -686,6 +574,167 @@ footer {
     opacity: 100;
 }
 
+.open-search-button {
+    background: transparent;
+    padding: 10px 20px;
+    border-color: #a34941;
+    border-radius: 9999px;
+    color: #a34941;
+    z-index: 20;
+}
+
+dialog {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 700px;
+    width: 90vw;
+    z-index: 999;
+    margin: 30px auto auto auto;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+modal-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+    gap: 15px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover {
+    color: #333;
+}
+
+.search-input {
+    padding: 12px 16px;
+    border-width: 0 0 2px 0;
+    font-size: 16px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #a34941;
+}
+
+/* Results Container */
+.results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.results-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.results-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.results-container::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.results-container::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+/* Result Item */
+.result-item {
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+    background: white;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.result-item:hover {
+    background: #f9f9f9;
+    border-color: #007bff;
+}
+
+.result-thumbnail {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: #e0e0e0;
+}
+
+.result-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+}
+
+.result-title {
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.result-description {
+    font-size: 12px;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Empty State */
+.empty-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 14px;
+    height: 100px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
 
@@ -701,11 +750,13 @@ footer {
         color: white;
     }
 
-    header:has(nav.scrolled), header:has(nav.active) {
+    header:has(nav.scrolled),
+    header:has(nav.active) {
         background-color: rgba(255, 255, 255, 0.95);
     }
 
-    header:has(nav.scrolled) .menu-toggle i, header:has(nav.active) .menu-toggle i {
+    header:has(nav.scrolled) .menu-toggle i,
+    header:has(nav.active) .menu-toggle i {
         color: black;
     }
 
@@ -737,6 +788,11 @@ footer {
 
     nav.scrolled {
         transform: translateX(0);
+    }
+
+    dialog {
+        width: 100%;
+        height: 100dvh;
     }
 
     .menu-toggle {
@@ -782,7 +838,7 @@ footer {
         width: 120px;
         font-size: 16px;
         bottom: 15px;
-        right: 15px;
+        right: 30px;
         padding: 8px 15px;
     }
 
@@ -796,51 +852,9 @@ footer {
         font-size: 2rem;
     }
 
-    /* Search Section Mobile */
-    .search-section {
-        padding: 20px;
-        margin: 15px;
-        border-radius: 10px;
-    }
-
-    .search-box {
-        margin-bottom: 30px;
-    }
-
-    .search-box input {
-        padding: 10px 15px;
-        font-size: 14px;
-    }
-
-    .search-box button {
-        padding: 0 15px;
-    }
-
-    /* Category Mobile */
-    .category-title {
-        font-size: 12px;
-        margin-bottom: 20px;
-    }
-
     .categories {
         gap: 12px;
         padding: 0 10px;
-    }
-
-    .category-item {
-        width: 90px;
-        height: 90px;
-        padding: 12px;
-        border-radius: 12px;
-    }
-
-    .category-item i {
-        font-size: 24px;
-        margin-bottom: 6px;
-    }
-
-    .category-item span {
-        font-size: 10px;
     }
 
     /* Destinations Mobile */
@@ -904,13 +918,18 @@ footer {
     }
 
     .detail-image-section {
-        min-height: 400px;
         padding: 20px;
         order: 1;
     }
 
     .image-wrapper {
-        max-width: 280px;
+        max-width: 320px;
+        aspect-ratio: 16/9;
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        height: auto;
     }
 
     /* Jelajahi Container Mobile */
@@ -937,20 +956,12 @@ footer {
         font-size: 11px;
     }
 
-    .jelajahi-filter-icon {
-        padding: 6px 12px;
-        font-size: 11px;
-        margin-left: 0;
-        width: 100%;
-        justify-content: center;
-    }
-
     .jelajahi-cards-grid {
         grid-template-columns: repeat(2, minmax(100px, 1fr));
         gap: 16px;
         padding: 10px 0 18px 0;
     }
-    
+
     .jelajahi-card {
         height: 240px;
         min-width: 200px;
@@ -959,13 +970,6 @@ footer {
 
     .jelajahi-card-overlay {
         padding: 15px;
-    }
-
-    .jelajahi-card-badge {
-        top: 10px;
-        right: 10px;
-        padding: 4px 10px;
-        font-size: 10px;
     }
 
     .jelajahi-card-title {
@@ -1027,20 +1031,6 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .category-item {
-        width: 80px;
-        height: 80px;
-        padding: 10px;
-    }
-
-    .category-item i {
-        font-size: 20px;
-    }
-
-    .category-item span {
-        font-size: 9px;
-    }
-
     .destinations-grid {
         grid-template-rows: 160px 120px 120px 160px;
     }
@@ -1055,7 +1045,7 @@ footer {
         height: 200px;
         min-width: 160px;
     }
-    
+
     .jelajahi-cards-grid {
         gap: 10px;
     }

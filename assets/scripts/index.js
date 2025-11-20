@@ -1,167 +1,25 @@
-let nav, currentFilter = 'Semua', displayLimit = 8;
-
-const wisataDatas = [
-    {
-        "nama": "Bukit Watu Jengger",
-        "tipe": "Wisata Alam",
-        "rating": 4.91,
-        "reviews": 8000,
-        "harga": 5000,
-        "image": "assets/images/bukit-watu-jengger-mojokerto.webp",
-        "url": "destinations.html?dest=bukit-watu-jengger"
-    },
-    {
-        "nama": "Air Terjun Dlundung",
-        "tipe": "Wisata Alam",
-        "rating": 4.85,
-        "reviews": 12000,
-        "harga": 10000,
-        "image": "assets/images/air-terjun-dlundung-mojokerto.webp",
-        "url": "destinations.html?dest=air-terjun-dlundung"
-    },
-    {
-        "nama": "Candi Bajang Ratu",
-        "tipe": "Wisata Sejarah",
-        "rating": 4.95,
-        "reviews": 5000,
-        "harga": 3000,
-        "image": "assets/images/candi-bajang-ratu-mojokerto.webp",
-        "url": "destinations.html?dest=candi-bajang-ratu"
-    },
-    {
-        "nama": "Gapura Wringin Lawang",
-        "tipe": "Wisata Sejarah",
-        "rating": 4.8,
-        "reviews": 3000,
-        "harga": 10000,
-        "image": "assets/images/gapura-wringin-lawang-mojokerto.webp",
-        "url": "destinations.html?dest=gapura-wringin-lawang"
-    },
-    {
-        "nama": "Patung Budha Tidur",
-        "tipe": "Wisata Religi",
-        "rating": 4.88,
-        "reviews": 9000,
-        "harga": 5000,
-        "image": "assets/images/patung-buddha-tidur.webp",
-        "url": "destinations.html?dest=patung-budha-tidur"
-    },
-    {
-        "nama": "Candi Tikus",
-        "tipe": "Wisata Sejarah",
-        "rating": 4.82,
-        "reviews": 11000,
-        "harga": 3000,
-        "image": "assets/images/candi-tikus.webp",
-        "url": "destinations.html?dest=candi-tikus"
-    },
-    {
-        "nama": "Museum Majapahit",
-        "tipe": "Wisata Edukasi",
-        "rating": 4.78,
-        "reviews": 4000,
-        "harga": 5000,
-        "image": "assets/images/museum-majapahit-mojokerto.webp",
-        "url": "destinations.html?dest=museum-majapahit"
-    },
-    {
-        "nama": "Kolam Segaran",
-        "tipe": "Wisata Sejarah",
-        "rating": 4.7,
-        "reviews": 3500,
-        "harga": 0,
-        "image": "assets/images/kolam-segaran.webp",
-        "url": "destinations.html?dest=kolam-segaran"
-    },
-    {
-        "nama": "Candi Minak Jinggo",
-        "tipe": "Wisata Sejarah",
-        "rating": 4.75,
-        "reviews": 2000,
-        "harga": 3000,
-        "image": "assets/images/candi-minak-jinggo.webp",
-        "url": "destinations.html?dest=candi-minak-jinggo"
-    },
-    {
-        "nama": "Air Terjun Coban Canggu",
-        "tipe": "Wisata Alam",
-        "rating": 4.83,
-        "reviews": 8900,
-        "harga": 10000,
-        "image": "assets/images/air-terjun-coban-canggu-mojokerto.webp",
-        "url": "destinations.html?dest=air-terjun-coban-canggu"
-    },
-    {
-        "nama": "Gunung Penanggungan",
-        "tipe": "Wisata Alam",
-        "rating": 4.92,
-        "reviews": 14000,
-        "harga": 5000,
-        "image": "assets/images/gunung-penanggungan.webp",
-        "url": "destinations.html?dest=gunung-penanggungan"
-    },
-    {
-        "nama": "Taman Ghanjaran",
-        "tipe": "Wisata Keluarga",
-        "rating": 4.81,
-        "reviews": 30000,
-        "harga": 10000,
-        "image": "assets/images/taman-ghanjaran.webp",
-        "url": "destinations.html?dest=taman-ghanjaran"
-    },
-    {
-        "nama": "Ranu Manduro",
-        "tipe": "Wisata Alam",
-        "rating": 4.65,
-        "reviews": 12000,
-        "harga": 0,
-        "image": "assets/images/ranu-manduro.webp",
-        "url": "destinations.html?dest=ranu-manduro"
-    },
-    {
-        "nama": "Petirtaan Jolotundo",
-        "tipe": "Wisata Religi",
-        "rating": 4.89,
-        "reviews": 6000,
-        "harga": 8000,
-        "image": "assets/images/petirtaan-jolotundo.webp",
-        "url": "destinations.html?dest=petirtaan-jolotundo"
-    },
-    {
-        "nama": "Sendi Adventure",
-        "tipe": "Wisata Alam",
-        "rating": 4.77,
-        "reviews": 7000,
-        "harga": 10000,
-        "image": "assets/images/sendi-adventure.webp",
-        "url": "destinations.html?dest=sendi-adventure"
-    },
-    {
-        "nama": "Alun-Alun Mojokerto",
-        "tipe": "Wisata Kota",
-        "rating": 4.6,
-        "reviews": 50000,
-        "harga": 0,
-        "image": "assets/images/alun-alun-mojokerto.webp",
-        "url": "destinations.html?dest=alun-alun-mojokerto"
-    },
-    {
-        "nama": "Candi Wringin Branjang",
-        "tipe": "Wisata Sejarah",
-        "rating": 4.66,
-        "reviews": 1700,
-        "harga": 0,
-        "image": "assets/images/candi-wringin-branjang.webp",
-        "url": "destinations.html?dest=candi-wringin-branjang"
-    }
-]
+let nav, wisataDatas, currentFilter = 'Semua', displayLimit = 8;
 
 nav = document.getElementById('mainNav');
 const hero = document.querySelector('.hero')
+fetch('data/all-destinations.json').then(r => r.json()).then(data => {
+    wisataDatas = data
+    const randNum = Math.floor(Math.random() * (data.length))
+    hero.style.backgroundImage = `url(${data[randNum].image})`
+    document.querySelector(".hero-label").textContent = data[randNum].nama
+    const filterSection = document.querySelector('.jelajahi-filter-section');
+    const uniqueDestinationCategories = [...new Set(data.map(item => item.tipe))]
 
-const randNum = Math.floor(Math.random() * (wisataDatas.length))
-hero.style.backgroundImage = `url(${wisataDatas[randNum].image})`
-document.querySelector(".hero-label").textContent = wisataDatas[randNum].nama
+    uniqueDestinationCategories.forEach(tipe => {
+        const button = document.createElement('button');
+        button.className = 'jelajahi-filter-btn';
+        button.textContent = tipe;
+        filterSection.appendChild(button);
+    });
+}).finally(() => {
+    renderCards();
+    makeFilterButton()
+})
 
 document.addEventListener('scroll', () => {
     if (scrollY > 50) {
@@ -182,33 +40,23 @@ document.addEventListener('click', function (event) {
     }
 });
 
-const filterSection = document.querySelector('.jelajahi-filter-section');
-const uniqueDestinationCategories = [...new Set(wisataDatas.map(item => item.tipe))]
+function makeFilterButton() {
+    const filterButtons = document.querySelectorAll('.jelajahi-filter-btn');
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            // Hapus class active dari semua button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
 
-uniqueDestinationCategories.forEach(tipe => {
-    const button = document.createElement('button');
-    button.className = 'jelajahi-filter-btn';
-    button.textContent = tipe;
-    filterSection.appendChild(button);
-});
+            // Tambah class active ke button yang diklik
+            this.classList.add('active');
 
-renderCards();
-
-const filterButtons = document.querySelectorAll('.jelajahi-filter-btn');
-filterButtons.forEach(button => {
-    button.addEventListener('click', function () {
-        // Hapus class active dari semua button
-        filterButtons.forEach(btn => btn.classList.remove('active'));
-
-        // Tambah class active ke button yang diklik
-        this.classList.add('active');
-
-        // Filter data berdasarkan teks button
-        currentFilter = this.textContent.trim();
-        displayLimit = 8; // Reset limit saat ganti filter
-        filterWisata();
+            // Filter data berdasarkan teks button
+            currentFilter = this.textContent.trim();
+            displayLimit = 8; // Reset limit saat ganti filter
+            filterWisata();
+        });
     });
-});
+}
 
 createIntersectionObserver({
     target: "#dest-stat",
@@ -251,25 +99,6 @@ createIntersectionObserver({
 
 function toggleMenu() {
     nav.classList.toggle('active');
-}
-
-function scrollToDestinations() {
-    document.getElementById('destinations').scrollIntoView({
-        behavior: 'smooth'
-    });
-}
-
-function searchDestination() {
-    const searchTerm = document.getElementById('searchInput').value;
-    alert('Mencari: ' + searchTerm);
-}
-
-function filterCategory(category) {
-    alert('Filter kategori: ' + category);
-}
-
-function viewDestination(name) {
-    alert('Membuka detail: ' + name);
 }
 
 // Fungsi untuk format harga
@@ -348,3 +177,36 @@ function updateViewMoreButton(shown, total) {
         }
     }
 }
+
+function filterResults(query) {
+    const resultsContainer = document.getElementById('resultsContainer');
+    
+    if (!query.trim()) {
+        resultsContainer.innerHTML = '<div class="empty-state">Mulai mengetik untuk mencari</div>';
+        return;
+    }
+
+    const filtered = wisataDatas.filter(item =>
+        item.nama.toLowerCase().includes(query.toLowerCase()) ||
+        item.tipe.toLowerCase().includes(query.toLowerCase())
+    );
+
+    if (filtered.length === 0) {
+        resultsContainer.innerHTML = '<div class="empty-state">Tidak ada hasil ditemukan</div>';
+        return;
+    }
+
+    resultsContainer.innerHTML = filtered.map(item => `
+        <a href="destinations.html?dest=${item.nama.toLowerCase().replaceAll(" ", "-")}" class="result-item">
+            <img src="${item.image}" alt="${item.nama}" class="result-thumbnail">
+            <div class="result-content">
+                <div class="result-title">${item.nama}</div>
+                <div class="result-description">${item.tipe}</div>
+            </div>
+        </a>
+    `).join('');
+}
+
+document.getElementById('searchDialog').addEventListener('show', function () {
+    document.getElementById('searchInput').focus();
+});
