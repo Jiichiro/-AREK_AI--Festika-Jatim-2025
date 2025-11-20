@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelajah Mojokerto</title>
+    <link rel="stylesheet" href="assets/styles/categories.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="assets/scripts/categories.js"></script>
+</head>
+
+<body>
+    <dialog id="searchDialog">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2>Cari</h2>
+                <button class="close-btn" onclick="document.getElementById('searchDialog').close()">
+                    <i class="fas fa-close"></i>
+                </button>
+            </div>
+
+            <input type="text" class="search-input" id="searchInput" placeholder="Ketik untuk mencari..."
+                oninput="filterResults(this.value)">
+
+            <div class="results-container" id="resultsContainer">
+                <div class="empty-state">Mulai mengetik untuk mencari</div>
+            </div>
+        </div>
+    </dialog>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div onclick="window.history.back()" class="navbar-title"><i class="fas fa-arrow-left"></i> Jelajah Mojokerto</div>
+        <button class="open-search-button" onclick="document.getElementById('searchDialog').showModal()"><i
+                class="fas fa-search">Cari</i></button>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Wisata Air</h1>
+            <p>Temukan keindahan dan kesegaran wisata di Mojokerto dengan berbagai pilihan destinasi menarik</p>
+        </div>
+    </div>
+
+    <!-- Top 5 Section -->
+    <div class="section">
+        <h2 class="section-title">Daftar wisata yang tersedia</h2>
+        <div class="card-grid" id="card">
+            
+        </div>
+    </div>
+</body>
+
+</html>

@@ -6,7 +6,8 @@
         "reviews": 8000,
         "harga": 5000,
         "image": "assets/images/bukit-watu-jengger-mojokerto.webp",
-        "url": "destinations.html?dest=bukit-watu-jengger"
+        "url": "destinations.html?dest=bukit-watu-jengger",
+        "lokasi": "Pacet, Mojokerto"
     },
     {
         "nama": "Air Terjun Dlundung",
@@ -15,7 +16,8 @@
         "reviews": 12000,
         "harga": 10000,
         "image": "assets/images/air-terjun-dlundung-mojokerto.webp",
-        "url": "destinations.html?dest=air-terjun-dlundung"
+        "url": "destinations.html?dest=air-terjun-dlundung",
+        "lokasi": "Trawas, Mojokerto"
     },
     {
         "nama": "Candi Bajang Ratu",
@@ -24,7 +26,8 @@
         "reviews": 5000,
         "harga": 3000,
         "image": "assets/images/candi-bajang-ratu-mojokerto.webp",
-        "url": "destinations.html?dest=candi-bajang-ratu"
+        "url": "destinations.html?dest=candi-bajang-ratu",
+        "lokasi": "Trowulan, Mojokerto"
     },
     {
         "nama": "Gapura Wringin Lawang",
@@ -33,7 +36,8 @@
         "reviews": 3000,
         "harga": 10000,
         "image": "assets/images/gapura-wringin-lawang-mojokerto.webp",
-        "url": "destinations.html?dest=gapura-wringin-lawang"
+        "url": "destinations.html?dest=gapura-wringin-lawang",
+        "lokasi": "Trowulan, Mojokerto"
     },
     {
         "nama": "Patung Budha Tidur",
@@ -42,7 +46,8 @@
         "reviews": 9000,
         "harga": 5000,
         "image": "assets/images/patung-buddha-tidur.webp",
-        "url": "destinations.html?dest=patung-budha-tidur"
+        "url": "destinations.html?dest=patung-budha-tidur",
+        "lokasi": "Trowulan, Mojokerto"
     },
     {
         "nama": "Candi Tikus",
@@ -51,7 +56,8 @@
         "reviews": 11000,
         "harga": 3000,
         "image": "assets/images/candi-tikus.webp",
-        "url": "destinations.html?dest=candi-tikus"
+        "url": "destinations.html?dest=candi-tikus",
+        "lokasi": "Trowulan, Mojokerto"
     },
     {
         "nama": "Museum Majapahit",
@@ -60,7 +66,8 @@
         "reviews": 4000,
         "harga": 5000,
         "image": "assets/images/museum-majapahit-mojokerto.webp",
-        "url": "destinations.html?dest=museum-majapahit"
+        "url": "destinations.html?dest=museum-majapahit",
+        "lokasi": "Trowulan, Mojokerto"
     },
     {
         "nama": "Kolam Segaran",
@@ -69,7 +76,8 @@
         "reviews": 3500,
         "harga": 0,
         "image": "assets/images/kolam-segaran.webp",
-        "url": "destinations.html?dest=kolam-segaran"
+        "url": "destinations.html?dest=kolam-segaran",
+        "lokasi": "Trowulan, Mojokerto"
     },
     {
         "nama": "Candi Minak Jinggo",
@@ -78,7 +86,8 @@
         "reviews": 2000,
         "harga": 3000,
         "image": "assets/images/candi-minak-jinggo.webp",
-        "url": "destinations.html?dest=candi-minak-jinggo"
+        "url": "destinations.html?dest=candi-minak-jinggo",
+        "lokasi": "Trowulan, Mojokerto"
     },
     {
         "nama": "Air Terjun Coban Canggu",
@@ -87,7 +96,8 @@
         "reviews": 8900,
         "harga": 10000,
         "image": "assets/images/air-terjun-coban-canggu-mojokerto.webp",
-        "url": "destinations.html?dest=air-terjun-coban-canggu"
+        "url": "destinations.html?dest=air-terjun-coban-canggu",
+        "lokasi": "Pacet, Mojokerto"
     },
     {
         "nama": "Gunung Penanggungan",
@@ -96,7 +106,8 @@
         "reviews": 14000,
         "harga": 5000,
         "image": "assets/images/gunung-penanggungan.webp",
-        "url": "destinations.html?dest=gunung-penanggungan"
+        "url": "destinations.html?dest=gunung-penanggungan",
+        "lokasi": "Trawas, Mojokerto"
     },
     {
         "nama": "Taman Ghanjaran",
@@ -105,7 +116,8 @@
         "reviews": 30000,
         "harga": 10000,
         "image": "assets/images/taman-ghanjaran.webp",
-        "url": "destinations.html?dest=taman-ghanjaran"
+        "url": "destinations.html?dest=taman-ghanjaran",
+        "lokasi": "Trawas, Mojokerto"
     },
     {
         "nama": "Ranu Manduro",
@@ -114,7 +126,8 @@
         "reviews": 12000,
         "harga": 0,
         "image": "assets/images/ranu-manduro.webp",
-        "url": "destinations.html?dest=ranu-manduro"
+        "url": "destinations.html?dest=ranu-manduro",
+        "lokasi": "Mojosari, Mojokerto"
     },
     {
         "nama": "Petirtaan Jolotundo",
@@ -123,7 +136,8 @@
         "reviews": 6000,
         "harga": 8000,
         "image": "assets/images/petirtaan-jolotundo.webp",
-        "url": "destinations.html?dest=petirtaan-jolotundo"
+        "url": "destinations.html?dest=petirtaan-jolotundo",
+        "lokasi": "Trawas, Mojokerto"
     },
     {
         "nama": "Sendi Adventure",
@@ -132,7 +146,8 @@
         "reviews": 7000,
         "harga": 10000,
         "image": "assets/images/sendi-adventure.webp",
-        "url": "destinations.html?dest=sendi-adventure"
+        "url": "destinations.html?dest=sendi-adventure",
+        "lokasi": "Pacet, Mojokerto"
     },
     {
         "nama": "Alun-Alun Mojokerto",
@@ -141,7 +156,8 @@
         "reviews": 50000,
         "harga": 0,
         "image": "assets/images/alun-alun-mojokerto.webp",
-        "url": "destinations.html?dest=alun-alun-mojokerto"
+        "url": "destinations.html?dest=alun-alun-mojokerto",
+        "lokasi": "Kota Mojokerto"
     },
     {
         "nama": "Candi Wringin Branjang",
@@ -150,6 +166,7 @@
         "reviews": 1700,
         "harga": 0,
         "image": "assets/images/candi-wringin-branjang.webp",
-        "url": "destinations.html?dest=candi-wringin-branjang"
+        "url": "destinations.html?dest=candi-wringin-branjang",
+        "lokasi": "Pacet, Mojokerto"
     }
 ]

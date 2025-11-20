@@ -17,7 +17,7 @@ if (destination == null || destination.includes("%")) {
         address: string
     }
 */
-fetch(`data/${destination}.json`)
+fetch(`data/destinations/${destination}.json`)
     .then(r => r.json())
     .then(data => {
         document.title = data.title

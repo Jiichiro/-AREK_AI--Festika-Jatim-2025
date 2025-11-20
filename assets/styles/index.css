@@ -426,12 +426,12 @@ footer {
 }
 
 .jelajahi-container {
-    background: #585d8a67;
+    /* background: #585d8a67; */
     border-radius: 24px;
     padding: 32px;
     max-width: 1200px;
     width: 100%;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1); */
     margin: 0 auto;
 }
 
@@ -454,114 +454,64 @@ footer {
 
 .jelajahi-filter-section {
     display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
+    gap: 20px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
     align-items: center;
     margin-bottom: 24px;
+    padding-bottom: 6px; /* biar scroll-nya ga mepet */
 }
+
+/* Scrollbar (Chrome, Edge, Safari) */
+.jelajahi-filter-section::-webkit-scrollbar {
+    height: 8px; /* tinggi scrollbar */
+}
+
+.jelajahi-filter-section::-webkit-scrollbar-track {
+    background: #e5e5e5; /* background track */
+    border-radius: 10px;
+}
+
+.jelajahi-filter-section::-webkit-scrollbar-thumb {
+    background: #b0b0b0; /* warna thumb */
+    border-radius: 10px;
+}
+
+.jelajahi-filter-section::-webkit-scrollbar-thumb:hover {
+    background: #888; /* hover biar keliatan hidup */
+}
+
+/* Scrollbar Firefox */
+.jelajahi-filter-section {
+    scrollbar-width: thin;
+    scrollbar-color: #b0b0b0 #e5e5e5;
+}
+
 
 .jelajahi-filter-btn {
     background: white;
-    color: #5a67d8;
+    color: black;
     border: none;
-    padding: 8px 16px;
-    border-radius: 20px;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 20px;
     transition: all 0.3s;
     font-family: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: bold;
+    align-items: center;
 }
 
 .jelajahi-filter-btn:hover {
-    background: #4c51bf;
-    color: white;
     transform: translateY(-2px);
 }
 
-.jelajahi-filter-btn.active {
-    background: #5a67d8;
-    color: white;
-}
-
-.jelajahi-cards-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-bottom: 24px;
-}
-
-.jelajahi-card {
-    border-radius: 16px;
-    overflow: hidden;
-    position: relative;
-    height: 280px;
-    min-width: 250px;
-    flex-shrink: 0;
-    cursor: pointer;
-    transition: transform 0.3s;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.jelajahi-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-}
-
-.jelajahi-card-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.jelajahi-card-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-    padding: 20px;
-    color: white;
-}
-
-.jelajahi-card-title {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.jelajahi-card-info {
-    display: flex;
-    gap: 16px;
-    font-size: 13px;
-    opacity: 0.9;
-}
-
-.jelajahi-card-info span {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.jelajahi-more-btn {
-    background: #5a67d8;
-    color: white;
-    border: none;
-    padding: 12px 32px;
-    border-radius: 24px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin: 0 auto -53px auto;
-    transition: all 0.3s;
-    font-family: inherit;
-}
-
-.jelajahi-more-btn:hover {
-    background: #4c51bf;
-    transform: translateX(4px);
+.jelajahi-image {
+    width: 200px;
+    height: 200px;
 }
 
 .fade-in {
@@ -578,8 +528,13 @@ footer {
     padding: 10px 20px;
     border-color: #a34941;
     border-radius: 9999px;
-    color: #a34941;
+    color: #ffffff;
     z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+
+.open-search-button.scrolled {
+    color: #a34941;
 }
 
 dialog {
@@ -682,6 +637,7 @@ modal-container {
     background: white;
     cursor: pointer;
     transition: background 0.2s;
+    text-decoration: none;
 }
 
 .result-item:hover {
@@ -714,6 +670,7 @@ modal-container {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-decoration: none;
 }
 
 .result-description {
@@ -722,6 +679,7 @@ modal-container {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-decoration: none;
 }
 
 /* Empty State */
@@ -951,8 +909,12 @@ modal-container {
     }
 
     .jelajahi-filter-btn {
-        padding: 6px 12px;
-        font-size: 11px;
+        font-size: 14px;
+    }
+
+    .jelajahi-image {
+        height: 100px;
+        width: 100px;
     }
 
     .jelajahi-cards-grid {
