@@ -455,8 +455,7 @@ footer {
 .jelajahi-filter-section {
     display: flex;
     gap: 12px;
-    flex-wrap: nowrap;
-    white-space: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 24px;
 }
@@ -876,7 +875,7 @@ modal-container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
         gap: 10px;
-        height: auto;
+        height: fit-content;
     }
 
     .destination-card h3 {
