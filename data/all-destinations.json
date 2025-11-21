@@ -2,7 +2,7 @@
     {
         "nama": "Bukit Watu Jengger",
         "tipe": "Wisata Alam",
-        "rating": 4.91,
+        "rating": 4.6,
         "reviews": 8000,
         "harga": 5000,
         "image": "assets/images/bukit-watu-jengger-mojokerto.webp",
@@ -22,7 +22,7 @@
     {
         "nama": "Candi Bajang Ratu",
         "tipe": "Wisata Sejarah",
-        "rating": 4.95,
+        "rating": 4.6,
         "reviews": 5000,
         "harga": 3000,
         "image": "assets/images/candi-bajang-ratu-mojokerto.webp",
@@ -42,7 +42,7 @@
     {
         "nama": "Patung Budha Tidur",
         "tipe": "Wisata Religi",
-        "rating": 4.88,
+        "rating": 4.3,
         "reviews": 9000,
         "harga": 5000,
         "image": "assets/images/patung-buddha-tidur.webp",
@@ -52,7 +52,7 @@
     {
         "nama": "Candi Tikus",
         "tipe": "Wisata Sejarah",
-        "rating": 4.82,
+        "rating": 4.5,
         "reviews": 11000,
         "harga": 3000,
         "image": "assets/images/candi-tikus.webp",
@@ -62,7 +62,7 @@
     {
         "nama": "Museum Majapahit",
         "tipe": "Wisata Edukasi",
-        "rating": 4.78,
+        "rating": 4.5,
         "reviews": 4000,
         "harga": 5000,
         "image": "assets/images/museum-majapahit-mojokerto.webp",
@@ -72,7 +72,7 @@
     {
         "nama": "Kolam Segaran",
         "tipe": "Wisata Sejarah",
-        "rating": 4.7,
+        "rating": 4.5,
         "reviews": 3500,
         "harga": 0,
         "image": "assets/images/kolam-segaran.webp",
@@ -82,7 +82,7 @@
     {
         "nama": "Candi Minak Jinggo",
         "tipe": "Wisata Sejarah",
-        "rating": 4.75,
+        "rating": 4.2,
         "reviews": 2000,
         "harga": 3000,
         "image": "assets/images/candi-minak-jinggo.webp",
@@ -92,7 +92,7 @@
     {
         "nama": "Air Terjun Coban Canggu",
         "tipe": "Wisata Alam",
-        "rating": 4.83,
+        "rating": 4.3,
         "reviews": 8900,
         "harga": 10000,
         "image": "assets/images/air-terjun-coban-canggu-mojokerto.webp",
@@ -102,7 +102,7 @@
     {
         "nama": "Gunung Penanggungan",
         "tipe": "Wisata Alam",
-        "rating": 4.92,
+        "rating": 4.7,
         "reviews": 14000,
         "harga": 5000,
         "image": "assets/images/gunung-penanggungan.webp",
@@ -112,7 +112,7 @@
     {
         "nama": "Taman Ghanjaran",
         "tipe": "Wisata Keluarga",
-        "rating": 4.81,
+        "rating": 4.6,
         "reviews": 30000,
         "harga": 10000,
         "image": "assets/images/taman-ghanjaran.webp",
@@ -122,7 +122,7 @@
     {
         "nama": "Ranu Manduro",
         "tipe": "Wisata Alam",
-        "rating": 4.65,
+        "rating": 4.3,
         "reviews": 12000,
         "harga": 0,
         "image": "assets/images/ranu-manduro.webp",
@@ -132,7 +132,7 @@
     {
         "nama": "Petirtaan Jolotundo",
         "tipe": "Wisata Religi",
-        "rating": 4.89,
+        "rating": 4.7,
         "reviews": 6000,
         "harga": 8000,
         "image": "assets/images/petirtaan-jolotundo.webp",
@@ -142,7 +142,7 @@
     {
         "nama": "Sendi Adventure",
         "tipe": "Wisata Alam",
-        "rating": 4.77,
+        "rating": 4.5,
         "reviews": 7000,
         "harga": 10000,
         "image": "assets/images/sendi-adventure.webp",
@@ -152,7 +152,7 @@
     {
         "nama": "Alun-Alun Mojokerto",
         "tipe": "Wisata Kota",
-        "rating": 4.6,
+        "rating": 4.5,
         "reviews": 50000,
         "harga": 0,
         "image": "assets/images/alun-alun-mojokerto.webp",
@@ -162,7 +162,7 @@
     {
         "nama": "Candi Wringin Branjang",
         "tipe": "Wisata Sejarah",
-        "rating": 4.66,
+        "rating": 4.5,
         "reviews": 1700,
         "harga": 0,
         "image": "assets/images/candi-wringin-branjang.webp",
