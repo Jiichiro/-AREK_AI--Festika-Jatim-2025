@@ -7,7 +7,8 @@
         "harga": 5000,
         "image": "assets/images/bukit-watu-jengger-mojokerto.webp",
         "url": "destinations.html?dest=bukit-watu-jengger",
-        "lokasi": "Pacet, Mojokerto"
+        "lokasi": "Pacet, Mojokerto",
+        "keywords": ["bukit", "pendakian", "mendaki", "ndaki", "daki", "tracking", "trekking", "alam", "pemandangan", "sunrise", "sunset", "petualangan", "hiking"]
     },
     {
         "nama": "Air Terjun Dlundung",
@@ -17,17 +18,19 @@
         "harga": 10000,
         "image": "assets/images/air-terjun-dlundung-mojokerto.webp",
         "url": "destinations.html?dest=air-terjun-dlundung",
-        "lokasi": "Trawas, Mojokerto"
+        "lokasi": "Trawas, Mojokerto",
+        "keywords": ["air terjun", "curug", "air", "segar", "berenang", "pemandian alam", "sungai", "airterjun", "terjun", "alam", "sejuk"]
     },
     {
         "nama": "Candi Bajang Ratu",
         "tipe": "Wisata Sejarah",
-        "rating": 4.6,
+        "rating": 4.95,
         "reviews": 5000,
         "harga": 3000,
         "image": "assets/images/candi-bajang-ratu-mojokerto.webp",
         "url": "destinations.html?dest=candi-bajang-ratu",
-        "lokasi": "Trowulan, Mojokerto"
+        "lokasi": "Trowulan, Mojokerto",
+        "keywords": ["candi", "sejarah", "majapahit", "kerajaan", "purbakala", "religi", "budaya", "kuno", "arkeologi", "wisata sejarah"]
     },
     {
         "nama": "Gapura Wringin Lawang",
@@ -37,136 +40,150 @@
         "harga": 10000,
         "image": "assets/images/gapura-wringin-lawang-mojokerto.webp",
         "url": "destinations.html?dest=gapura-wringin-lawang",
-        "lokasi": "Trowulan, Mojokerto"
+        "lokasi": "Trowulan, Mojokerto",
+        "keywords": ["gapura", "sejarah", "majapahit", "kerajaan", "purbakala", "bangunan kuno", "arsitektur", "wisata sejarah", "candi"]
     },
     {
         "nama": "Patung Budha Tidur",
         "tipe": "Wisata Religi",
-        "rating": 4.3,
+        "rating": 4.88,
         "reviews": 9000,
         "harga": 5000,
         "image": "assets/images/patung-buddha-tidur.webp",
         "url": "destinations.html?dest=patung-budha-tidur",
-        "lokasi": "Trowulan, Mojokerto"
+        "lokasi": "Trowulan, Mojokerto",
+        "keywords": ["patung", "budha", "buddha", "religi", "spiritual", "wisata religi", "keagamaan", "meditasi", "zen", "budhist"]
     },
     {
         "nama": "Candi Tikus",
         "tipe": "Wisata Sejarah",
-        "rating": 4.5,
+        "rating": 4.82,
         "reviews": 11000,
         "harga": 3000,
         "image": "assets/images/candi-tikus.webp",
         "url": "destinations.html?dest=candi-tikus",
-        "lokasi": "Trowulan, Mojokerto"
+        "lokasi": "Trowulan, Mojokerto",
+        "keywords": ["candi", "sejarah", "majapahit", "tikus", "purbakala", "religi", "budaya", "kuno", "arkeologi"]
     },
     {
         "nama": "Museum Majapahit",
         "tipe": "Wisata Edukasi",
-        "rating": 4.5,
+        "rating": 4.78,
         "reviews": 4000,
         "harga": 5000,
         "image": "assets/images/museum-majapahit-mojokerto.webp",
         "url": "destinations.html?dest=museum-majapahit",
-        "lokasi": "Trowulan, Mojokerto"
+        "lokasi": "Trowulan, Mojokerto",
+        "keywords": ["museum", "edukasi", "sejarah", "majapahit", "pendidikan", "belajar", "wisata edukasi", "artefak", "peninggalan", "budaya"]
     },
     {
         "nama": "Kolam Segaran",
         "tipe": "Wisata Sejarah",
-        "rating": 4.5,
+        "rating": 4.7,
         "reviews": 3500,
         "harga": 0,
         "image": "assets/images/kolam-segaran.webp",
         "url": "destinations.html?dest=kolam-segaran",
-        "lokasi": "Trowulan, Mojokerto"
+        "lokasi": "Trowulan, Mojokerto",
+        "keywords": ["kolam", "sejarah", "majapahit", "purbakala", "wisata sejarah", "air", "pemandangan", "relaksasi"]
     },
     {
         "nama": "Candi Minak Jinggo",
         "tipe": "Wisata Sejarah",
-        "rating": 4.2,
+        "rating": 4.75,
         "reviews": 2000,
         "harga": 3000,
         "image": "assets/images/candi-minak-jinggo.webp",
         "url": "destinations.html?dest=candi-minak-jinggo",
-        "lokasi": "Trowulan, Mojokerto"
+        "lokasi": "Trowulan, Mojokerto",
+        "keywords": ["candi", "sejarah", "majapahit", "minak jinggo", "purbakala", "religi", "budaya", "kuno"]
     },
     {
         "nama": "Air Terjun Coban Canggu",
         "tipe": "Wisata Alam",
-        "rating": 4.3,
+        "rating": 4.83,
         "reviews": 8900,
         "harga": 10000,
         "image": "assets/images/air-terjun-coban-canggu-mojokerto.webp",
         "url": "destinations.html?dest=air-terjun-coban-canggu",
-        "lokasi": "Pacet, Mojokerto"
+        "lokasi": "Pacet, Mojokerto",
+        "keywords": ["air terjun", "curug", "coban", "air", "segar", "berenang", "pemandian alam", "sungai", "alam", "sejuk", "petualangan"]
     },
     {
         "nama": "Gunung Penanggungan",
         "tipe": "Wisata Alam",
-        "rating": 4.7,
+        "rating": 4.92,
         "reviews": 14000,
         "harga": 5000,
         "image": "assets/images/gunung-penanggungan.webp",
         "url": "destinations.html?dest=gunung-penanggungan",
-        "lokasi": "Trawas, Mojokerto"
+        "lokasi": "Trawas, Mojokerto",
+        "keywords": ["gunung", "pendakian", "mendaki", "ndaki", "daki", "tracking", "trekking", "alam", "puncak", "petualangan", "hiking", "pemandangan", "sunrise"]
     },
     {
         "nama": "Taman Ghanjaran",
         "tipe": "Wisata Keluarga",
-        "rating": 4.6,
+        "rating": 4.81,
         "reviews": 30000,
         "harga": 10000,
         "image": "assets/images/taman-ghanjaran.webp",
         "url": "destinations.html?dest=taman-ghanjaran",
-        "lokasi": "Trawas, Mojokerto"
+        "lokasi": "Trawas, Mojokerto",
+        "keywords": ["taman", "keluarga", "anak", "main", "edukasi", "hiburan", "wahana", "rekreasi", "wisata keluarga", "bermain", "fun"]
     },
     {
         "nama": "Ranu Manduro",
         "tipe": "Wisata Alam",
-        "rating": 4.3,
+        "rating": 4.65,
         "reviews": 12000,
         "harga": 0,
         "image": "assets/images/ranu-manduro.webp",
         "url": "destinations.html?dest=ranu-manduro",
-        "lokasi": "Mojosari, Mojokerto"
+        "lokasi": "Mojosari, Mojokerto",
+        "keywords": ["ranu", "danau", "alam", "pemandangan", "wisata alam", "air", "segar", "foto", "selfie", "landscape"]
     },
     {
         "nama": "Petirtaan Jolotundo",
         "tipe": "Wisata Religi",
-        "rating": 4.7,
+        "rating": 4.89,
         "reviews": 6000,
         "harga": 8000,
         "image": "assets/images/petirtaan-jolotundo.webp",
         "url": "destinations.html?dest=petirtaan-jolotundo",
-        "lokasi": "Trawas, Mojokerto"
+        "lokasi": "Trawas, Mojokerto",
+        "keywords": ["petirtaan", "jolotundo", "religi", "spiritual", "pemandian", "wisata religi", "keagamaan", "sejarah", "alam"]
     },
     {
         "nama": "Sendi Adventure",
         "tipe": "Wisata Alam",
-        "rating": 4.5,
+        "rating": 4.77,
         "reviews": 7000,
         "harga": 10000,
         "image": "assets/images/sendi-adventure.webp",
         "url": "destinations.html?dest=sendi-adventure",
-        "lokasi": "Pacet, Mojokerto"
+        "lokasi": "Pacet, Mojokerto",
+        "keywords": ["adventure", "petualangan", "alam", "outbound", "tracking", "trekking", "wisata alam", "fun", "ekstrem", "seru"]
     },
     {
         "nama": "Alun-Alun Mojokerto",
         "tipe": "Wisata Kota",
-        "rating": 4.5,
+        "rating": 4.6,
         "reviews": 50000,
         "harga": 0,
         "image": "assets/images/alun-alun-mojokerto.webp",
         "url": "destinations.html?dest=alun-alun-mojokerto",
-        "lokasi": "Kota Mojokerto"
+        "lokasi": "Kota Mojokerto",
+        "keywords": ["alun-alun", "kota", "wisata kota", "rekreasi", "keluarga", "makan", "kuliner", "taman", "pusat kota", "hiburan"]
     },
     {
         "nama": "Candi Wringin Branjang",
         "tipe": "Wisata Sejarah",
-        "rating": 4.5,
+        "rating": 4.66,
         "reviews": 1700,
         "harga": 0,
         "image": "assets/images/candi-wringin-branjang.webp",
         "url": "destinations.html?dest=candi-wringin-branjang",
-        "lokasi": "Pacet, Mojokerto"
+        "lokasi": "Pacet, Mojokerto",
+        "keywords": ["candi", "sejarah", "majapahit", "purbakala", "religi", "budaya", "kuno", "arkeologi", "wisata sejarah"]
     }
 ]

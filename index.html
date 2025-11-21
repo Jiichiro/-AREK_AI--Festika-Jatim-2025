@@ -9,24 +9,31 @@
   <link rel="stylesheet" href="assets/styles/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
     rel="stylesheet">
   <script src="assets/scripts/intersection.js"></script>
   <script defer src="assets/scripts/index.js"></script>
 </head>
 
 <body>
-  <!-- Header -->
   <header>
     <nav id="mainNav">
-      <a href="#hero">Beranda</a>
-      <a href="#tentang">Tentang</a>
-      <a href="#jelajahi">Jelajahi</a>
+      <button class="nav-close-btn" onclick="toggleMenu()">
+        <i class="fas fa-times"></i>
+      </button>
+      
+      <a href="#hero" onclick="toggleMenu()">Beranda</a>
+      <a href="#tentang" onclick="toggleMenu()">Tentang</a>
+      <a href="#jelajahi" onclick="toggleMenu()">Jelajahi</a>
     </nav>
+    
     <div class="menu-toggle" onclick="toggleMenu()">
       <i class="fas fa-bars"></i>
     </div>
-    <button class="open-search-button" onclick="document.getElementById('searchDialog').showModal()"><i class="fas fa-search">Cari</i></button>
+    
+    <button class="open-search-button" onclick="document.getElementById('searchDialog').showModal()">
+      <i class="fas fa-search"></i><p>cari</p>
+    </button>
   </header>
 
   <dialog id="searchDialog">
@@ -46,93 +53,114 @@
     </div>
   </dialog>
 
-  <div class="container-1">
-    <!-- Hero Section -->
+<div class="container-1">
     <section id="hero" class="hero">
-      <div class="hero-content">
-        <h1>Jelajahi Keindahan Mojokerto</h1>
-        <p>Seluruh tempat wisata mojokerto dalam satu tempat.</p>
-        <a href="#jelajahi" class="btn-jelajahi">Jelajahi</a>
-      </div>
-      <div class="hero-label">Air Terjun Dlundung</div>
+        
+        <div class="hero-overlay"></div> 
+        <div class="hero-content">
+            <h1>Jelajahi Keindahan Mojokerto</h1>
+            <p>Seluruh tempat wisata mojokerto dalam satu tempat.</p>
+            <a href="#jelajahi" class="btn-jelajahi">Jelajahi</a>
+        </div>
+        <div class="hero-label">Air Terjun Dlundung</div>
     </section>
 
-    <section class="detail" id="tentang">
-      <div class="detail-section">
-        <h1 class="fade-in">Ada apa di Mojokerto?</h1>
-        <p class="fade-in">
-          Mojokerto merupakan salah satu daerah yang kaya akan sejarah, budaya, dan keindahan alam. Di sini,
-          pengunjung dapat menemukan berbagai peninggalan masa Kerajaan Majapahit, mulai dari candi, situs
-          arkeologi, hingga museum yang merekam jejak kejayaan masa lampau. <br><br>
+    <section class="detail global-section" id="tentang">
+      <div class="section-header center-header">
+        <h2>Ada Apa Di Mojokerto?</h2>
+      </div>
+      
+      <div class="detail-content">
+        <div class="detail-text">
+          <p class="fade-in">
+            Mojokerto merupakan salah satu daerah yang kaya akan sejarah, budaya, dan keindahan alam. Di sini,
+            pengunjung dapat menemukan berbagai peninggalan masa Kerajaan Majapahit, mulai dari candi, situs
+            arkeologi, hingga museum yang merekam jejak kejayaan masa lampau. <br><br>
+    
+            Selain warisan sejarah, Mojokerto juga menawarkan destinasi alam yang memukau, seperti pegunungan,
+            air terjun, dan area wisata yang cocok untuk rekreasi maupun penyegaran diri. <br><br>
+    
+            Dengan perpaduan antara nilai historis dan pesona alamnya, Mojokerto menjadi tujuan yang menarik
+            bagi siapa pun yang ingin mengenal lebih dekat kekayaan budaya dan keindahan Indonesia.
+          </p>
+    
+          <div class="stats fade-in">
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-icon-bg">
+            <i class="fas fa-map-marked-alt"></i>
+        </div>
+        <div class="stat-value">20+</div>
+        <div class="stat-label">Destinasi Unggulan</div>
+    </div>
 
-          Selain warisan sejarah, Mojokerto juga menawarkan destinasi alam yang memukau, seperti pegunungan,
-          air terjun, dan area wisata yang cocok untuk rekreasi maupun penyegaran diri. <br><br>
+    <div class="stat-card">
+        <div class="stat-icon-bg">
+            <i class="fas fa-landmark"></i>
+        </div>
+        <div class="stat-value">5</div>
+        <div class="stat-label">Situs Candi Bersejarah</div>
+    </div>
 
-          Dengan perpaduan antara nilai historis dan pesona alamnya, Mojokerto menjadi tujuan yang menarik
-          bagi siapa pun yang ingin mengenal lebih dekat kekayaan budaya dan keindahan Indonesia.
-        </p>
-
-        <div class="stats fade-in">
-          <div class="stat-item">
-            <div id="dest-stat" class="stat-number">50+</div>
-            <div class="stat-label">Destinasi Wisata</div>
+    <div class="stat-card">
+        <div class="stat-icon-bg">
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="stat-value">4.7</div>
+        <div class="stat-label">Rating Rata-rata</div>
+    </div>
+</div>
           </div>
-          <div class="stat-item">
-            <div id="candi-stat" class="stat-number">10+</div>
-            <div class="stat-label">Candi Bersejarah</div>
+        </div>
+        
+        <div class="detail-image-section fade-in">
+          <div class="image-wrapper">
+            <img loading="lazy" src="assets/images/patung-dipura-mojokerto.webp" alt="Patung Mojokerto">
           </div>
         </div>
       </div>
-      <div class="detail-image-section fade-in">
-        <div class="image-wrapper">
-          <img loading="lazy" src="assets/images/patung-dipura-mojokerto.webp" alt="Patung Mojokerto">
-        </div>
-      </div>
     </section>
-
   </div>
 
-  <!-- Destinations Section -->
-  <section class="destinations-section" id="destinations">
-    <h2 class="fade-in">TEMPAT YANG GABOLEH DILEWATKAN</h2>
+  <section class="destinations-section global-section" id="destinations">
+    <div class="section-header left-header">
+      <h2 class="fade-in">5 Destinasi Paling Ramai!</h2>
+      <p class="section-subtitle fade-in">Destinasi yang paling banyak dikunjungi!</p>
+    </div>
+
     <div class="destinations-grid">
       <a href="destinations.html?dest=bukit-watu-jengger" class="fade-in destination-card dest-bukit-watu">
-        <h3>Bukit Watu<br>Jengger</h3>
+        <h3>Bukit Watu Jengger</h3>
       </a>
       <a href="destinations.html?dest=air-terjun-dlundung" class="fade-in destination-card dest-air-terjun">
-        <h3>Air Terjun<br>Dlundung</h3>
+        <h3>Air Terjun Dlundung</h3>
       </a>
       <a href="destinations.html?dest=museum-majapahit" class="fade-in destination-card dest-museum">
-        <h3>Museum<br>Majapahit</h3>
+        <h3>Museum Majapahit</h3>
       </a>
       <a href="destinations.html?dest=gapura-wringin-lawang" class="fade-in destination-card dest-gapura">
-        <h3>Gapura<br>Wringin<br>Lawang</h3>
+        <h3>Gapura Wringin Lawang</h3>
       </a>
       <a href="destinations.html?dest=candi-bajang-ratu" class="fade-in destination-card dest-candi">
-        <h3>Candi<br>Bajang Ratu</h3>
+        <h3>Candi Bajang Ratu</h3>
       </a>
     </div>
   </section>
 
-  <section class="jelajahi-container" id="jelajahi">
-    <div class="jelajahi-header">
+  <section class="jelajahi-container global-section" id="jelajahi">
+    <div class="section-header left-header">
       <h2>Jelajahi</h2>
-      <p class="jelajahi-subtitle">Jelajahi tempat wisata berdasarkan ketegori dibawah!</p>
+      <p class="section-subtitle">Jelajahi tempat wisata berdasarkan kategori dibawah!</p>
     </div>
 
     <div class="jelajahi-filter-section">
       <a href="categories.html?cat=semua" class="jelajahi-filter-btn">
-        <img src="assets/images/gunung-penanggungan.webp" alt="Bukit Watu Jengger" class="jelajahi-image">
+        <img src="assets/images/gunung-penanggungan.webp" alt="Semua" class="jelajahi-image">
         Semua
       </a>
     </div>
-
-    <div class="jelajahi-cards-grid">
-
-    </div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <div class="footer-content">
       <div class="footer-section">
@@ -141,21 +169,15 @@
       <div class="footer-section">
         <h3>Site Map</h3>
         <ul>
-          <li><a href="#beranda">Home</a></li>
+          <li><a href="#hero">Beranda</a></li>
           <li><a href="#tentang">Tentang</a></li>
-          <li><a href="#sejarah">Sejarah</a></li>
+          <li><a href="#jelajahi">Jelajahi</a></li>
         </ul>
       </div>
       <div class="footer-section">
         <div class="social-icons">
-          <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
           <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
           <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
-          <a href="#" title="Spotify"><i class="fab fa-spotify"></i></a>
-          <a href="#" title="Pinterest"><i class="fab fa-pinterest"></i></a>
-          <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
         </div>
         <p style="margin-top: 15px; font-size: 14px;">@dimaslebew</p>
         <p style="margin-top: 15px; font-size: 14px;">@andyaja</p>
@@ -164,5 +186,4 @@
   </footer>
 
 </body>
-
 </html>

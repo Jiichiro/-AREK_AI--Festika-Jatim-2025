@@ -4,13 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jelajah Mojokerto</title>
+    <title>Kategori Wisata - Jelajahi Mojokerto</title>
     <link rel="stylesheet" href="assets/styles/categories.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <script defer src="assets/scripts/categories.js"></script>
 </head>
 
 <body>
+    <header>
+        <nav id="mainNav">
+            <button class="nav-close-btn" onclick="toggleMenu()">
+                <i class="fas fa-times"></i>
+            </button>
+            <a href="index.html">Beranda</a>
+            <a href="index.html#tentang">Tentang</a>
+            <a href="index.html#jelajahi">Jelajahi</a>
+        </nav>
+
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <button class="open-search-button" onclick="document.getElementById('searchDialog').showModal()">
+            <i class="fas fa-search"></i>
+            <p>cari</p>
+        </button>
+    </header>
+
     <dialog id="searchDialog">
         <div class="modal-container">
             <div class="modal-header">
@@ -19,38 +40,55 @@
                     <i class="fas fa-close"></i>
                 </button>
             </div>
-
-            <input type="text" class="search-input" id="searchInput" placeholder="Ketik untuk mencari..."
-                oninput="filterResults(this.value)">
-
+            <input type="text" class="search-input" id="searchInput" placeholder="Ketik untuk mencari..." oninput="filterResults(this.value)">
             <div class="results-container" id="resultsContainer">
                 <div class="empty-state">Mulai mengetik untuk mencari</div>
             </div>
         </div>
     </dialog>
 
-    <!-- Navbar -->
-    <div class="navbar">
-        <div onclick="window.history.back()" class="navbar-title"><i class="fas fa-arrow-left"></i> Jelajah Mojokerto</div>
-        <button class="open-search-button" onclick="document.getElementById('searchDialog').showModal()"><i
-                class="fas fa-search">Cari</i></button>
-    </div>
-
-    <!-- Hero Section -->
-    <div class="hero" id="hero">
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Wisata Air</h1>
-            <p>Temukan keindahan dan kesegaran wisata di Mojokerto dengan berbagai pilihan destinasi menarik</p>
+            <h1 id="heroTitle">Memuat...</h1>
+            <p id="heroDesc">Temukan destinasi terbaik pilihan kami.</p>
         </div>
-    </div>
+    </section>
 
-    <!-- Top 5 Section -->
-    <div class="section">
-        <h2 class="section-title">Daftar wisata yang tersedia</h2>
+    <section class="category-content section-padding">
+        <div class="section-header left-header">
+            <button onclick="window.history.back()" class="back-btn"><i class="fas fa-arrow-left"></i> Kembali</button>
+            <h2 id="contentTitle">Daftar Wisata</h2>
+        </div>
+        
         <div class="card-grid" id="card">
-            
-        </div>
-    </div>
-</body>
+            </div>
+    </section>
 
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Jelajahi<br>Mojokerto</h3>
+            </div>
+            <div class="footer-section">
+                <h3>Site Map</h3>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="index.html#tentang">Tentang</a></li>
+                    <li><a href="index.html#jelajahi">Jelajahi</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <div class="social-icons">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <p style="margin-top: 15px; font-size: 14px;">@dimaslebew</p>
+                <p style="margin-top: 15px; font-size: 14px;">@andyaja</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>

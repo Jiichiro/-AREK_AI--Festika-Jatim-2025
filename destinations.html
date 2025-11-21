@@ -22,14 +22,26 @@
         <h1>Ringkasan</h1>
     </div>
 
-    <div class="hero-section" id="swipeContainer"> 
-        <img id="mainImage" src="" alt="Main Image" class="main-image">
-
-        <div id="thumbnail" class="thumbnail-container">
+    <div class="hero-section">
+        <div class="hero-container">
+            <div class="main-image-wrapper" id="swipeContainer">
+                <img id="mainImage" src="" alt="Main Image" class="main-image">
             </div>
+            
+            <!-- Thumbnail samping untuk desktop -->
+            <div class="side-thumbnail-container" id="sideThumbnail">
+                <!-- Thumbnail akan diisi oleh JavaScript -->
+            </div>
+        </div>
+        
+        <!-- Thumbnail bawah untuk mobile -->
+        <div class="bottom-thumbnail-container" id="bottomThumbnail">
+            <!-- Thumbnail akan diisi oleh JavaScript -->
+        </div>
     </div>
 
     <div class="content-wrapper">
+        <!-- Konten lainnya tetap sama -->
         <div class="content">
             <div class="title-section">
                 <h2 id="destTitle"></h2>
@@ -61,19 +73,6 @@
                         </div>
                 </div>
             </div>
-
-            <div class="button-container">
-                <button class="btn btn-outline" onclick="history.back()">
-                    <i class="fas fa-arrow-left"></i><p>Kembali</p>
-                </button>
-                <a class="btn btn-primary"
-                    href="https://www.google.com/maps" target="_blank" id="goToTheLocation">
-                    MENUJU LOKASI
-                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
-                    </svg>
-                </a>
-            </div>
         </div>
 
         <div class="location-section">
@@ -91,6 +90,19 @@
             </div>
         </div>
     </div>
-</body>
 
+    <div class="sticky-footer-action">
+        <button class="btn btn-outline-sticky" onclick="history.back()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+            </svg>
+        </button>
+        <a class="btn btn-primary-sticky" href="#" target="_blank" id="goToTheLocation">
+            MENUJU LOKASI
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+            </svg>
+        </a>
+    </div>
+</body>
 </html>

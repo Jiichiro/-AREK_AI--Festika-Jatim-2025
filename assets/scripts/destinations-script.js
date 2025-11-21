@@ -4,14 +4,12 @@ const mainImage = document.getElementById('mainImage');
 
 let allImages = []; // Array untuk menyimpan semua URL gambar
 let currentImageIndex = 0; // Index gambar yang sedang ditampilkan
+let isAnimating = false; // Flag untuk mencegah animasi bertumpuk
 
 if (destination == null || destination.includes("%")) {
     window.location.href = window.location.pathname.replace("destinations.html", "404.html")
 }
 
-/*
-    {\n        title: string\n        image: array[url, title]\n        rating: float\n        price: number\n        description: array<string>[]\n        facilities: array[icon, title]\n        googleMap: string\n        address: string\n    }
-*/
 fetch(`data/destinations/${destination}.json`)
     .then(r => r.json())
     .then(data => {
@@ -22,17 +20,32 @@ fetch(`data/destinations/${destination}.json`)
         
         mainImage.src = allImages[0]
 
+        // Buat thumbnail untuk desktop (samping) dan mobile (bawah)
         data.image.forEach((img, index) => {
-            const imageNode = document.createElement('img')
-            imageNode.src = img.url
-            imageNode.alt = data.title
-            imageNode.className = "thumbnail"
+            // Thumbnail untuk desktop (samping)
+            const sideThumbNode = document.createElement('img')
+            sideThumbNode.src = img.url
+            sideThumbNode.alt = data.title
+            sideThumbNode.className = "side-thumbnail"
+            sideThumbNode.setAttribute('data-index', index);
+            sideThumbNode.setAttribute('onclick', "changeImage(this)");
             
-            // Tambahkan index sebagai data-attribute
-            imageNode.setAttribute('data-index', index);
-            imageNode.setAttribute('onclick', "changeImage(this)");
+            // Set active untuk thumbnail pertama
+            if (index === 0) {
+                sideThumbNode.classList.add('active');
+            }
             
-            document.getElementById('thumbnail').appendChild(imageNode)
+            document.getElementById('sideThumbnail').appendChild(sideThumbNode)
+            
+            // Thumbnail untuk mobile (bawah)
+            const bottomThumbNode = document.createElement('img')
+            bottomThumbNode.src = img.url
+            bottomThumbNode.alt = data.title
+            bottomThumbNode.className = "bottom-thumbnail"
+            bottomThumbNode.setAttribute('data-index', index);
+            bottomThumbNode.setAttribute('onclick', "changeImage(this)");
+            
+            document.getElementById('bottomThumbnail').appendChild(bottomThumbNode)
         });
         
         document.getElementById("destTitle").textContent = data.title
@@ -42,15 +55,15 @@ fetch(`data/destinations/${destination}.json`)
         const priceNoteElement = document.getElementById("priceNote");
 
         if (data.price > 0) {
-    priceElement.innerHTML = "Rp " + data.price.toLocaleString("id-ID", {
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 2
-    });
-    priceNoteElement.style.display = 'inline';
-} else {
-    priceElement.textContent = "Gratis";
-    priceNoteElement.style.display = 'none';
-}
+            priceElement.innerHTML = "Rp " + data.price.toLocaleString("id-ID", {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 2
+            });
+            priceNoteElement.style.display = 'inline';
+        } else {
+            priceElement.textContent = "Gratis";
+            priceNoteElement.style.display = 'none';
+        }
 
         document.getElementById("description").innerHTML = data.description.join("<br><br>")
         
@@ -70,7 +83,7 @@ fetch(`data/destinations/${destination}.json`)
         })
 
         document.getElementById("goToTheLocation").href = `https://www.google.com/maps/dir/?api=1&destination=${data.title.replaceAll(" ", "+")}`
-        document.getElementById("googleMap").innerHTML = `<iframe src="${data.googleMap}" width="100%" height="100%" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        document.getElementById("googleMap").innerHTML = `<iframe src="${data.googleMap}" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
         document.getElementById("address").textContent = data.address
 
     }).catch(() => {
@@ -78,9 +91,50 @@ fetch(`data/destinations/${destination}.json`)
     })
 
 function changeImage(thumb) {
-    // Fungsi untuk mengganti gambar utama
-    currentImageIndex = parseInt(thumb.getAttribute('data-index'));
-    mainImage.src = thumb.src.replace('w=400', 'w=1200');
+    if (isAnimating) return; // Mencegah animasi bertumpuk
+    
+    const newIndex = parseInt(thumb.getAttribute('data-index'));
+    
+    // Tentukan arah animasi
+    const direction = newIndex > currentImageIndex ? 'left' : 'right';
+    
+    // Update thumbnail aktif
+    updateActiveThumbnail(newIndex);
+    
+    // Update gambar utama dengan animasi
+    animateImageChange(allImages[newIndex], direction);
+    
+    currentImageIndex = newIndex;
+}
+
+function updateActiveThumbnail(index) {
+    // Hapus class active dari semua thumbnail
+    document.querySelectorAll('.side-thumbnail, .bottom-thumbnail').forEach(thumb => {
+        thumb.classList.remove('active');
+    });
+    
+    // Tambah class active ke thumbnail yang sesuai
+    document.querySelectorAll(`[data-index="${index}"]`).forEach(thumb => {
+        thumb.classList.add('active');
+    });
+}
+
+function animateImageChange(newSrc, direction) {
+    isAnimating = true;
+    
+    // Tambah class animasi berdasarkan arah
+    mainImage.classList.add(direction === 'left' ? 'slide-left' : 'slide-right');
+    
+    // Tunggu sedikit sebelum mengganti sumber gambar
+    setTimeout(() => {
+        mainImage.src = newSrc.replace('w=400', 'w=1200');
+        
+        // Hapus class animasi setelah transisi selesai
+        setTimeout(() => {
+            mainImage.classList.remove('slide-left', 'slide-right');
+            isAnimating = false;
+        }, 300);
+    }, 10);
 }
 
 // PERUBAHAN: Fungsi View More/Less yang digabungkan
@@ -101,7 +155,6 @@ function toggleDescription(isViewMore) {
     }
 }
 
-
 // --- LOGIC SWIPE UNTUK GAMBAR UTAMA (MOBILE) ---
 const swipeContainer = document.getElementById('swipeContainer');
 let touchStartX = 0;
@@ -117,6 +170,8 @@ swipeContainer.addEventListener('touchend', e => {
 });
 
 function handleGesture() {
+    if (isAnimating) return; // Mencegah swipe saat animasi berjalan
+    
     const swipeThreshold = 50; // Jarak minimal swipe dalam piksel
 
     // Geser ke KIRI (Menuju gambar berikutnya)
@@ -131,13 +186,17 @@ function handleGesture() {
 }
 
 function goToNextImage() {
-    if (allImages.length === 0) return;
-    currentImageIndex = (currentImageIndex + 1) % allImages.length;
-    mainImage.src = allImages[currentImageIndex];
+    if (allImages.length === 0 || isAnimating) return;
+    const newIndex = (currentImageIndex + 1) % allImages.length;
+    updateActiveThumbnail(newIndex);
+    animateImageChange(allImages[newIndex], 'left');
+    currentImageIndex = newIndex;
 }
 
 function goToPrevImage() {
-    if (allImages.length === 0) return;
-    currentImageIndex = (currentImageIndex - 1 + allImages.length) % allImages.length;
-    mainImage.src = allImages[currentImageIndex];
+    if (allImages.length === 0 || isAnimating) return;
+    const newIndex = (currentImageIndex - 1 + allImages.length) % allImages.length;
+    updateActiveThumbnail(newIndex);
+    animateImageChange(allImages[newIndex], 'right');
+    currentImageIndex = newIndex;
 }
