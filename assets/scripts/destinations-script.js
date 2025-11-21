@@ -70,7 +70,7 @@ fetch(`data/destinations/${destination}.json`)
         })
 
         document.getElementById("goToTheLocation").href = `https://www.google.com/maps/dir/?api=1&destination=${data.title.replaceAll(" ", "+")}`
-        document.getElementById("googleMap").innerHTML = `<iframe src="${data.googleMap}" width="100%" height="${window.screen.width > 768 ? "350px" : "280px"}" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        document.getElementById("googleMap").innerHTML = `<iframe src="${data.googleMap}" width="100%" height="100%" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
         document.getElementById("address").textContent = data.address
 
     }).catch(() => {
