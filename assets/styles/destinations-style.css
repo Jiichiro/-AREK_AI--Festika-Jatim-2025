@@ -122,32 +122,53 @@ body {
     font-size: 16px;
 }
 
-.price {
-    color: #666;
-    font-size: 15px;
-    margin-bottom: 16px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+.price-info {
+    margin-bottom: 24px;
+    display: block;
 }
 
-/* Styling untuk description dengan view more */
+.price-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 5px;
+}
+.price-tag {
+    background-color: #e6f7ff;
+    color: #096a94;
+    padding: 6px 12px;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* STYLE BARU UNTUK KETERANGAN HARGA */
+.price-note {
+    font-size: 12px;
+    color: #777;
+    font-style: italic;
+}
+
 .description {
-    position: relative;
-    color: #555;
     font-size: 15px;
+    color: #4a5568;
     line-height: 1.7;
-    margin-bottom: 32px;
+    margin-bottom: 15px;
 }
 
-/* State ketika text terpotong */
 .description.collapsed {
-    max-height: 5.1em; /* 3 baris teks (1.7 * 3) */
     overflow: hidden;
     display: -webkit-box;
-    line-clamp: 3;
-    -webkit-line-clamp: 3;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+}
+
+.description-actions {
+    margin-bottom: 30px;
 }
 
 /* Tombol View More */
@@ -177,6 +198,23 @@ body {
 /* Hide button ketika tidak diperlukan */
 .view-more-btn.hidden {
     display: none;
+}
+
+/* STYLE UNTUK TOMBOL VIEW MORE/LESS */
+.view-more-btn,
+.view-less-btn {
+    background: none;
+    border: none;
+    color: #a34941;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0;
+    display: block; /* Agar bisa disembunyikan */
+}
+
+.view-less-btn.hidden {
+  display: none !important;
 }
 
 /* Container wrapper (opsional) */
@@ -415,5 +453,18 @@ body {
 
     .main-image {
         height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        position: fixed;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+
+    .btn-outline p {
+        display: none;
     }
 }

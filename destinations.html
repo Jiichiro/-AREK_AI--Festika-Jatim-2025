@@ -7,6 +7,9 @@
     <title>Ringkasan</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/styles/destinations-style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
     <script defer src="assets/scripts/destinations-script.js"></script>
 </head>
 
@@ -19,14 +22,11 @@
         <h1>Ringkasan</h1>
     </div>
 
-    <div class="hero-section">
-        <img id="mainImage"
-            src=""
-            alt="Main Image" class="main-image">
+    <div class="hero-section" id="swipeContainer"> 
+        <img id="mainImage" src="" alt="Main Image" class="main-image">
 
         <div id="thumbnail" class="thumbnail-container">
-            
-        </div>
+            </div>
     </div>
 
     <div class="content-wrapper">
@@ -39,31 +39,32 @@
                 </div>
             </div>
 
-            <div class="price" id="price">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path
-                        d="M20 7h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM10 4h4v3h-4V4zm2 12c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z" />
-                </svg>
+            <div class="price-info">
+              <span class="price-label">Harga tiket masuk</span>
+                <span class="price-tag" id="price"></span>
+                <span class="price-note" id="priceNote">*perkiraan</span> 
             </div>
 
-            <div class="description-wrapper">
-                <p class="description collapsed" id="description">
-                    
-                </p>
-                <button class="view-more-btn" onclick="viewMoreBtn()">baca Selengkapnya...</button>
+            <h3 class="section-title">Ringkasan</h3>
+            <div class="description collapsed" id="description">
+                </div>
+            
+            <div class="description-actions">
+                <button class="view-more-btn" id="viewMoreBtn" onclick="toggleDescription(true)">Selengkapnya</button>
+                <button class="view-less-btn hidden" id="viewLessBtn" onclick="toggleDescription(false)">Ringkas</button>
             </div>
-
+            
             <div class="info-grid">
                 <div>
                     <h3 class="section-title">Fasilitas</h3>
                     <div class="facilities" id="facility">
-                    </div>
+                        </div>
                 </div>
             </div>
 
             <div class="button-container">
                 <button class="btn btn-outline" onclick="history.back()">
-                    Kembali
+                    <i class="fas fa-arrow-left"></i><p>Kembali</p>
                 </button>
                 <a class="btn btn-primary"
                     href="https://www.google.com/maps" target="_blank" id="goToTheLocation">
@@ -78,7 +79,7 @@
         <div class="location-section">
             <h3 class="section-title">Lokasi</h3>
             <div class="map-container" id="googleMap">
-            </div>
+                </div>
 
             <div class="address">
                 <svg class="address-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -90,8 +91,6 @@
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>
